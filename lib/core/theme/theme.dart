@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:market_libre/core/theme/color_pallet.dart';
+
+import 'color_pallet.dart';
 
 ThemeData appTheme = ThemeData(
     colorScheme: ColorScheme(
