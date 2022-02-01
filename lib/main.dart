@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:market_libre/application.dart';
 
-void main() {
+import 'application.dart';
+import 'core/db/isar_db.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await IsarDb.init();
+
   runApp(const MyApp());
 }
 
