@@ -8,13 +8,20 @@
             "name": "market_libre",
             "request": "launch",
             "type": "dart",
-            "args": ["--dart-define=BASE_URL=https://api.mercadolibre.com/"]
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=PRODUCTION=https://api.mercadolibre.com/",
+            ],
         },
         {
             "name": "market_libre (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=PRODUCTION=https://api.mercadolibre.com/"
+            ]
         }
     ]
 }
