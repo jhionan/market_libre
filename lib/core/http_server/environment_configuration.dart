@@ -1,12 +1,12 @@
 abstract class EnvironmentConfiguration {
   static final String prodUrl = String.fromEnvironment(
     Environment.production.name,
-    defaultValue: '',
+    defaultValue: 'https://api.mercadolibre.com/',
   );
 }
 
 enum Environment { production }
 
 extension on Environment {
-  String get name => toString().split('.').last;
+  String get name => toString().split('.').last.toUpperCase();
 }

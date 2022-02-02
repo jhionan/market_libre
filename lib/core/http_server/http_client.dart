@@ -1,15 +1,25 @@
 import 'package:dio/dio.dart';
+import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 class HttpClient {
-  static final _timeoutInMillisecond = 30000;
-  final Dio _dio;
   HttpClient({required String baseUrl})
-      : _dio = Dio(BaseOptions(
+      : _dio = Dio()
+          ..options = BaseOptions(
             baseUrl: baseUrl,
             receiveTimeout: _timeoutInMillisecond,
             connectTimeout: _timeoutInMillisecond,
             sendTimeout: _timeoutInMillisecond,
-            responseType: ResponseType.stream));
+            contentType: 'json',
+          )
+          ..interceptors.add(PrettyDioLogger(
+              requestHeader: true,
+              error: true,
+              maxWidth: 500,
+              responseHeader: true));
+  static const _timeoutInMillisecond = 30000;
+  final Dio _dio;
+  
 
- 
+
+  Dio get dio => _dio;
 }
