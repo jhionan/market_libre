@@ -1,9 +1,17 @@
 import 'dart:convert';
+import 'dart:isolate';
 
 import '../../../core/db/isar_db.dart';
 import '../data/api/search_api.dart';
 import '../data/models/search_dto.dart';
 import 'models/search_entity.dart';
+
+class _SearchDtoIsolateData {
+  _SearchDtoIsolateData({required this.sendPort, required this.searchDto});
+
+  final SendPort sendPort;
+  final SearchDto searchDto;
+}
 
 class SearchDatasource {
   SearchDatasource(this._searchApi, this._db);
@@ -32,10 +40,24 @@ class SearchDatasource {
         .toList();
   }
 
+  static void _searchWorkerIsolate(
+      _SearchDtoIsolateData _searchDtoIsolateData) {
+    SendPort sendPort = _searchDtoIsolateData.sendPort;
+    sendPort.send(SearchEntity.fromDto(_searchDtoIsolateData.searchDto));
+  }
+
   Stream<SearchEntity> search(
       {required String query, required int offset}) async* {
-    yield* _searchApi.search(query, 50, offset).asyncMap((SearchDto searchDto) {
-      return SearchEntity.fromDto(searchDto);
+    yield* _searchApi
+        .search(query, 50, offset)
+        .asyncExpand((SearchDto searchDto) async* {
+      final ReceivePort receivePort = ReceivePort();
+
+      Isolate isolate = await Isolate.spawn(
+          _searchWorkerIsolate,
+          _SearchDtoIsolateData(
+              searchDto: searchDto, sendPort: receivePort.sendPort));
+      yield* Stream.castFrom<dynamic, SearchEntity>(receivePort);
     });
   }
 
