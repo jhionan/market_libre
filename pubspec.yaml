@@ -56,6 +56,9 @@ dev_dependencies:
   json_annotation: ^4.4.0
   isar_generator: ^2.0.0
   mockito: ^5.0.17
+  network_image_mock: ^2.0.1
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -75,6 +78,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - test/feature/home/fixture/search_notebook.json
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
