@@ -56,15 +56,15 @@ class ProductSearchDelegate extends SearchDelegate<void> {
     if (query.isNotEmpty) {
       _cubit.searchQuery(query);
     }
-    return _SearchResultBuilder(bloc: _cubit);
+    return _SearchResultBuilder(
+      bloc: _cubit,
+    );
   }
 }
 
 class _SearchResultBuilder extends StatelessWidget {
-  const _SearchResultBuilder({
-    Key? key,
-    required SearchCubit bloc,
-  })  : _cubit = bloc,
+  const _SearchResultBuilder({Key? key, required SearchCubit bloc})
+      : _cubit = bloc,
         super(key: key);
 
   final SearchCubit _cubit;
@@ -75,8 +75,12 @@ class _SearchResultBuilder extends StatelessWidget {
       stream: _cubit.stream,
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          final List<String> searchWords =
-              snapshot.data!.searchWords.toList();
+          if (snapshot.data!.isSearchLoading) {
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
+          }
+          final List<String> searchWords = snapshot.data!.searchWords.toList();
           return ListView.separated(
             padding: const EdgeInsets.all(16),
             itemCount: searchWords.length,

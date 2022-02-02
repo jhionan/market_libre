@@ -15,12 +15,24 @@ part 'search_state.dart';
 class SearchCubit extends Cubit<SearchState> with Disposable {
   SearchCubit(this._datasource) : super(const SearchState.init()) {
     _featchLatestVisited();
+    _handleQueryThrottle.throttleTime(const Duration(seconds: 2)).listen((String query) {
+      if(query.runes.length > 2) {
+      _search(query: query);
+      }
+    });
   }
 
   final SearchDatasource _datasource;
+  final PublishSubject<String> _handleQueryThrottle = PublishSubject();
+
+  @override
+  Future<void> close() {
+    _handleQueryThrottle.close();
+    return super.close();
+  }
 
   void searchQuery(String query) {
-    _search(query: query);
+    _handleQueryThrottle.add(query);
   }
 
   void searchProduct({required String query, int offset = 0}) {
@@ -34,7 +46,8 @@ class SearchCubit extends Cubit<SearchState> with Disposable {
   }) {
     emit(SearchStateResult(
         type: isSearch ? StateType.seach : StateType.result,
-        products: state.products));
+        products: state.products,
+        isSearchLoading: true));
 
     _datasource
         .search(query: query, offset: isSearch ? 0 : offset)
@@ -54,7 +67,8 @@ class SearchCubit extends Cubit<SearchState> with Disposable {
       emit(state.copyWith(
           searchItems: isSearch ? null : searchEntity,
           searchWords: words,
-          type: isSearch ? StateType.seach : StateType.result));
+          type: isSearch ? StateType.seach : StateType.result,
+          isSearchLoading: false));
     }, onError: (Object error) {
       addError(error);
     }).subscribe(this);
