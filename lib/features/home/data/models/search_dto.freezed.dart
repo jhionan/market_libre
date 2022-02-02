@@ -430,7 +430,7 @@ class _$ResultTearOff {
       {String? id,
       String? siteId,
       String? title,
-      int? price,
+      double? price,
       String? currencyId,
       int? availableQuantity,
       int? soldQuantity,
@@ -439,7 +439,7 @@ class _$ResultTearOff {
       String? condition,
       String? permalink,
       String? thumbnail,
-      List<Attribute>? attributes,
+      List<ResultAttribute>? attributes,
       String? categoryId,
       String? catalogProductId,
       List<String?>? tags}) {
@@ -476,7 +476,7 @@ mixin _$Result {
   String? get id => throw _privateConstructorUsedError;
   String? get siteId => throw _privateConstructorUsedError;
   String? get title => throw _privateConstructorUsedError;
-  int? get price => throw _privateConstructorUsedError;
+  double? get price => throw _privateConstructorUsedError;
   String? get currencyId => throw _privateConstructorUsedError;
   int? get availableQuantity => throw _privateConstructorUsedError;
   int? get soldQuantity => throw _privateConstructorUsedError;
@@ -485,7 +485,7 @@ mixin _$Result {
   String? get condition => throw _privateConstructorUsedError;
   String? get permalink => throw _privateConstructorUsedError;
   String? get thumbnail => throw _privateConstructorUsedError;
-  List<Attribute>? get attributes => throw _privateConstructorUsedError;
+  List<ResultAttribute>? get attributes => throw _privateConstructorUsedError;
   String? get categoryId => throw _privateConstructorUsedError;
   String? get catalogProductId => throw _privateConstructorUsedError;
   List<String?>? get tags => throw _privateConstructorUsedError;
@@ -503,7 +503,7 @@ abstract class $ResultCopyWith<$Res> {
       {String? id,
       String? siteId,
       String? title,
-      int? price,
+      double? price,
       String? currencyId,
       int? availableQuantity,
       int? soldQuantity,
@@ -512,7 +512,7 @@ abstract class $ResultCopyWith<$Res> {
       String? condition,
       String? permalink,
       String? thumbnail,
-      List<Attribute>? attributes,
+      List<ResultAttribute>? attributes,
       String? categoryId,
       String? catalogProductId,
       List<String?>? tags});
@@ -561,7 +561,7 @@ class _$ResultCopyWithImpl<$Res> implements $ResultCopyWith<$Res> {
       price: price == freezed
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as double?,
       currencyId: currencyId == freezed
           ? _value.currencyId
           : currencyId // ignore: cast_nullable_to_non_nullable
@@ -597,7 +597,7 @@ class _$ResultCopyWithImpl<$Res> implements $ResultCopyWith<$Res> {
       attributes: attributes == freezed
           ? _value.attributes
           : attributes // ignore: cast_nullable_to_non_nullable
-              as List<Attribute>?,
+              as List<ResultAttribute>?,
       categoryId: categoryId == freezed
           ? _value.categoryId
           : categoryId // ignore: cast_nullable_to_non_nullable
@@ -623,7 +623,7 @@ abstract class _$ResultCopyWith<$Res> implements $ResultCopyWith<$Res> {
       {String? id,
       String? siteId,
       String? title,
-      int? price,
+      double? price,
       String? currencyId,
       int? availableQuantity,
       int? soldQuantity,
@@ -632,7 +632,7 @@ abstract class _$ResultCopyWith<$Res> implements $ResultCopyWith<$Res> {
       String? condition,
       String? permalink,
       String? thumbnail,
-      List<Attribute>? attributes,
+      List<ResultAttribute>? attributes,
       String? categoryId,
       String? catalogProductId,
       List<String?>? tags});
@@ -682,7 +682,7 @@ class __$ResultCopyWithImpl<$Res> extends _$ResultCopyWithImpl<$Res>
       price: price == freezed
           ? _value.price
           : price // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as double?,
       currencyId: currencyId == freezed
           ? _value.currencyId
           : currencyId // ignore: cast_nullable_to_non_nullable
@@ -718,7 +718,7 @@ class __$ResultCopyWithImpl<$Res> extends _$ResultCopyWithImpl<$Res>
       attributes: attributes == freezed
           ? _value.attributes
           : attributes // ignore: cast_nullable_to_non_nullable
-              as List<Attribute>?,
+              as List<ResultAttribute>?,
       categoryId: categoryId == freezed
           ? _value.categoryId
           : categoryId // ignore: cast_nullable_to_non_nullable
@@ -766,7 +766,7 @@ class _$_Result implements _Result {
   @override
   final String? title;
   @override
-  final int? price;
+  final double? price;
   @override
   final String? currencyId;
   @override
@@ -784,7 +784,7 @@ class _$_Result implements _Result {
   @override
   final String? thumbnail;
   @override
-  final List<Attribute>? attributes;
+  final List<ResultAttribute>? attributes;
   @override
   final String? categoryId;
   @override
@@ -864,7 +864,7 @@ abstract class _Result implements Result {
       {String? id,
       String? siteId,
       String? title,
-      int? price,
+      double? price,
       String? currencyId,
       int? availableQuantity,
       int? soldQuantity,
@@ -873,7 +873,7 @@ abstract class _Result implements Result {
       String? condition,
       String? permalink,
       String? thumbnail,
-      List<Attribute>? attributes,
+      List<ResultAttribute>? attributes,
       String? categoryId,
       String? catalogProductId,
       List<String?>? tags}) = _$_Result;
@@ -887,7 +887,7 @@ abstract class _Result implements Result {
   @override
   String? get title;
   @override
-  int? get price;
+  double? get price;
   @override
   String? get currencyId;
   @override
@@ -905,7 +905,7 @@ abstract class _Result implements Result {
   @override
   String? get thumbnail;
   @override
-  List<Attribute>? get attributes;
+  List<ResultAttribute>? get attributes;
   @override
   String? get categoryId;
   @override
@@ -917,101 +917,78 @@ abstract class _Result implements Result {
   _$ResultCopyWith<_Result> get copyWith => throw _privateConstructorUsedError;
 }
 
-Attribute _$AttributeFromJson(Map<String, dynamic> json) {
+ResultAttribute _$ResultAttributeFromJson(Map<String, dynamic> json) {
   return _Attribute.fromJson(json);
 }
 
 /// @nodoc
-class _$AttributeTearOff {
-  const _$AttributeTearOff();
+class _$ResultAttributeTearOff {
+  const _$ResultAttributeTearOff();
 
   _Attribute call(
       {String? valueId,
-      int? source,
-      String? id,
       String? name,
       String? valueName,
-      List<AttributeValue>? values,
-      String? attributeGroupName}) {
+      @Id() int dbId = Isar.autoIncrement}) {
     return _Attribute(
       valueId: valueId,
-      source: source,
-      id: id,
       name: name,
       valueName: valueName,
-      values: values,
-      attributeGroupName: attributeGroupName,
+      dbId: dbId,
     );
   }
 
-  Attribute fromJson(Map<String, Object?> json) {
-    return Attribute.fromJson(json);
+  ResultAttribute fromJson(Map<String, Object?> json) {
+    return ResultAttribute.fromJson(json);
   }
 }
 
 /// @nodoc
-const $Attribute = _$AttributeTearOff();
+const $ResultAttribute = _$ResultAttributeTearOff();
 
 /// @nodoc
-mixin _$Attribute {
+mixin _$ResultAttribute {
   String? get valueId => throw _privateConstructorUsedError;
-  int? get source => throw _privateConstructorUsedError;
-  String? get id => throw _privateConstructorUsedError;
   String? get name => throw _privateConstructorUsedError;
-  String? get valueName => throw _privateConstructorUsedError;
-  List<AttributeValue>? get values => throw _privateConstructorUsedError;
-  String? get attributeGroupName => throw _privateConstructorUsedError;
+  String? get valueName =>
+      throw _privateConstructorUsedError; // ignore: invalid_annotation_target
+  @Id()
+  int get dbId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $AttributeCopyWith<Attribute> get copyWith =>
+  $ResultAttributeCopyWith<ResultAttribute> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $AttributeCopyWith<$Res> {
-  factory $AttributeCopyWith(Attribute value, $Res Function(Attribute) then) =
-      _$AttributeCopyWithImpl<$Res>;
-  $Res call(
-      {String? valueId,
-      int? source,
-      String? id,
-      String? name,
-      String? valueName,
-      List<AttributeValue>? values,
-      String? attributeGroupName});
+abstract class $ResultAttributeCopyWith<$Res> {
+  factory $ResultAttributeCopyWith(
+          ResultAttribute value, $Res Function(ResultAttribute) then) =
+      _$ResultAttributeCopyWithImpl<$Res>;
+  $Res call({String? valueId, String? name, String? valueName, @Id() int dbId});
 }
 
 /// @nodoc
-class _$AttributeCopyWithImpl<$Res> implements $AttributeCopyWith<$Res> {
-  _$AttributeCopyWithImpl(this._value, this._then);
+class _$ResultAttributeCopyWithImpl<$Res>
+    implements $ResultAttributeCopyWith<$Res> {
+  _$ResultAttributeCopyWithImpl(this._value, this._then);
 
-  final Attribute _value;
+  final ResultAttribute _value;
   // ignore: unused_field
-  final $Res Function(Attribute) _then;
+  final $Res Function(ResultAttribute) _then;
 
   @override
   $Res call({
     Object? valueId = freezed,
-    Object? source = freezed,
-    Object? id = freezed,
     Object? name = freezed,
     Object? valueName = freezed,
-    Object? values = freezed,
-    Object? attributeGroupName = freezed,
+    Object? dbId = freezed,
   }) {
     return _then(_value.copyWith(
       valueId: valueId == freezed
           ? _value.valueId
           : valueId // ignore: cast_nullable_to_non_nullable
-              as String?,
-      source: source == freezed
-          ? _value.source
-          : source // ignore: cast_nullable_to_non_nullable
-              as int?,
-      id: id == freezed
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
               as String?,
       name: name == freezed
           ? _value.name
@@ -1021,36 +998,26 @@ class _$AttributeCopyWithImpl<$Res> implements $AttributeCopyWith<$Res> {
           ? _value.valueName
           : valueName // ignore: cast_nullable_to_non_nullable
               as String?,
-      values: values == freezed
-          ? _value.values
-          : values // ignore: cast_nullable_to_non_nullable
-              as List<AttributeValue>?,
-      attributeGroupName: attributeGroupName == freezed
-          ? _value.attributeGroupName
-          : attributeGroupName // ignore: cast_nullable_to_non_nullable
-              as String?,
+      dbId: dbId == freezed
+          ? _value.dbId
+          : dbId // ignore: cast_nullable_to_non_nullable
+              as int,
     ));
   }
 }
 
 /// @nodoc
-abstract class _$AttributeCopyWith<$Res> implements $AttributeCopyWith<$Res> {
+abstract class _$AttributeCopyWith<$Res>
+    implements $ResultAttributeCopyWith<$Res> {
   factory _$AttributeCopyWith(
           _Attribute value, $Res Function(_Attribute) then) =
       __$AttributeCopyWithImpl<$Res>;
   @override
-  $Res call(
-      {String? valueId,
-      int? source,
-      String? id,
-      String? name,
-      String? valueName,
-      List<AttributeValue>? values,
-      String? attributeGroupName});
+  $Res call({String? valueId, String? name, String? valueName, @Id() int dbId});
 }
 
 /// @nodoc
-class __$AttributeCopyWithImpl<$Res> extends _$AttributeCopyWithImpl<$Res>
+class __$AttributeCopyWithImpl<$Res> extends _$ResultAttributeCopyWithImpl<$Res>
     implements _$AttributeCopyWith<$Res> {
   __$AttributeCopyWithImpl(_Attribute _value, $Res Function(_Attribute) _then)
       : super(_value, (v) => _then(v as _Attribute));
@@ -1061,25 +1028,14 @@ class __$AttributeCopyWithImpl<$Res> extends _$AttributeCopyWithImpl<$Res>
   @override
   $Res call({
     Object? valueId = freezed,
-    Object? source = freezed,
-    Object? id = freezed,
     Object? name = freezed,
     Object? valueName = freezed,
-    Object? values = freezed,
-    Object? attributeGroupName = freezed,
+    Object? dbId = freezed,
   }) {
     return _then(_Attribute(
       valueId: valueId == freezed
           ? _value.valueId
           : valueId // ignore: cast_nullable_to_non_nullable
-              as String?,
-      source: source == freezed
-          ? _value.source
-          : source // ignore: cast_nullable_to_non_nullable
-              as int?,
-      id: id == freezed
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
               as String?,
       name: name == freezed
           ? _value.name
@@ -1089,14 +1045,10 @@ class __$AttributeCopyWithImpl<$Res> extends _$AttributeCopyWithImpl<$Res>
           ? _value.valueName
           : valueName // ignore: cast_nullable_to_non_nullable
               as String?,
-      values: values == freezed
-          ? _value.values
-          : values // ignore: cast_nullable_to_non_nullable
-              as List<AttributeValue>?,
-      attributeGroupName: attributeGroupName == freezed
-          ? _value.attributeGroupName
-          : attributeGroupName // ignore: cast_nullable_to_non_nullable
-              as String?,
+      dbId: dbId == freezed
+          ? _value.dbId
+          : dbId // ignore: cast_nullable_to_non_nullable
+              as int,
     ));
   }
 }
@@ -1104,14 +1056,11 @@ class __$AttributeCopyWithImpl<$Res> extends _$AttributeCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$_Attribute implements _Attribute {
-  const _$_Attribute(
+  _$_Attribute(
       {this.valueId,
-      this.source,
-      this.id,
       this.name,
       this.valueName,
-      this.values,
-      this.attributeGroupName});
+      @Id() this.dbId = Isar.autoIncrement});
 
   factory _$_Attribute.fromJson(Map<String, dynamic> json) =>
       _$$_AttributeFromJson(json);
@@ -1119,21 +1068,17 @@ class _$_Attribute implements _Attribute {
   @override
   final String? valueId;
   @override
-  final int? source;
-  @override
-  final String? id;
-  @override
   final String? name;
   @override
   final String? valueName;
-  @override
-  final List<AttributeValue>? values;
-  @override
-  final String? attributeGroupName;
+  @JsonKey()
+  @override // ignore: invalid_annotation_target
+  @Id()
+  final int dbId;
 
   @override
   String toString() {
-    return 'Attribute(valueId: $valueId, source: $source, id: $id, name: $name, valueName: $valueName, values: $values, attributeGroupName: $attributeGroupName)';
+    return 'ResultAttribute(valueId: $valueId, name: $name, valueName: $valueName, dbId: $dbId)';
   }
 
   @override
@@ -1142,25 +1087,18 @@ class _$_Attribute implements _Attribute {
         (other.runtimeType == runtimeType &&
             other is _Attribute &&
             const DeepCollectionEquality().equals(other.valueId, valueId) &&
-            const DeepCollectionEquality().equals(other.source, source) &&
-            const DeepCollectionEquality().equals(other.id, id) &&
             const DeepCollectionEquality().equals(other.name, name) &&
             const DeepCollectionEquality().equals(other.valueName, valueName) &&
-            const DeepCollectionEquality().equals(other.values, values) &&
-            const DeepCollectionEquality()
-                .equals(other.attributeGroupName, attributeGroupName));
+            const DeepCollectionEquality().equals(other.dbId, dbId));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(valueId),
-      const DeepCollectionEquality().hash(source),
-      const DeepCollectionEquality().hash(id),
       const DeepCollectionEquality().hash(name),
       const DeepCollectionEquality().hash(valueName),
-      const DeepCollectionEquality().hash(values),
-      const DeepCollectionEquality().hash(attributeGroupName));
+      const DeepCollectionEquality().hash(dbId));
 
   @JsonKey(ignore: true)
   @override
@@ -1173,15 +1111,12 @@ class _$_Attribute implements _Attribute {
   }
 }
 
-abstract class _Attribute implements Attribute {
-  const factory _Attribute(
+abstract class _Attribute implements ResultAttribute {
+  factory _Attribute(
       {String? valueId,
-      int? source,
-      String? id,
       String? name,
       String? valueName,
-      List<AttributeValue>? values,
-      String? attributeGroupName}) = _$_Attribute;
+      @Id() int dbId}) = _$_Attribute;
 
   factory _Attribute.fromJson(Map<String, dynamic> json) =
       _$_Attribute.fromJson;
@@ -1189,449 +1124,14 @@ abstract class _Attribute implements Attribute {
   @override
   String? get valueId;
   @override
-  int? get source;
-  @override
-  String? get id;
-  @override
   String? get name;
   @override
   String? get valueName;
-  @override
-  List<AttributeValue>? get values;
-  @override
-  String? get attributeGroupName;
+  @override // ignore: invalid_annotation_target
+  @Id()
+  int get dbId;
   @override
   @JsonKey(ignore: true)
   _$AttributeCopyWith<_Attribute> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-AttributeValue _$AttributeValueFromJson(Map<String, dynamic> json) {
-  return _AttributeValue.fromJson(json);
-}
-
-/// @nodoc
-class _$AttributeValueTearOff {
-  const _$AttributeValueTearOff();
-
-  _AttributeValue call({int? source, String? id, String? name}) {
-    return _AttributeValue(
-      source: source,
-      id: id,
-      name: name,
-    );
-  }
-
-  AttributeValue fromJson(Map<String, Object?> json) {
-    return AttributeValue.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $AttributeValue = _$AttributeValueTearOff();
-
-/// @nodoc
-mixin _$AttributeValue {
-  int? get source => throw _privateConstructorUsedError;
-  String? get id => throw _privateConstructorUsedError;
-  String? get name => throw _privateConstructorUsedError;
-
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $AttributeValueCopyWith<AttributeValue> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $AttributeValueCopyWith<$Res> {
-  factory $AttributeValueCopyWith(
-          AttributeValue value, $Res Function(AttributeValue) then) =
-      _$AttributeValueCopyWithImpl<$Res>;
-  $Res call({int? source, String? id, String? name});
-}
-
-/// @nodoc
-class _$AttributeValueCopyWithImpl<$Res>
-    implements $AttributeValueCopyWith<$Res> {
-  _$AttributeValueCopyWithImpl(this._value, this._then);
-
-  final AttributeValue _value;
-  // ignore: unused_field
-  final $Res Function(AttributeValue) _then;
-
-  @override
-  $Res call({
-    Object? source = freezed,
-    Object? id = freezed,
-    Object? name = freezed,
-  }) {
-    return _then(_value.copyWith(
-      source: source == freezed
-          ? _value.source
-          : source // ignore: cast_nullable_to_non_nullable
-              as int?,
-      id: id == freezed
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      name: name == freezed
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
-  }
-}
-
-/// @nodoc
-abstract class _$AttributeValueCopyWith<$Res>
-    implements $AttributeValueCopyWith<$Res> {
-  factory _$AttributeValueCopyWith(
-          _AttributeValue value, $Res Function(_AttributeValue) then) =
-      __$AttributeValueCopyWithImpl<$Res>;
-  @override
-  $Res call({int? source, String? id, String? name});
-}
-
-/// @nodoc
-class __$AttributeValueCopyWithImpl<$Res>
-    extends _$AttributeValueCopyWithImpl<$Res>
-    implements _$AttributeValueCopyWith<$Res> {
-  __$AttributeValueCopyWithImpl(
-      _AttributeValue _value, $Res Function(_AttributeValue) _then)
-      : super(_value, (v) => _then(v as _AttributeValue));
-
-  @override
-  _AttributeValue get _value => super._value as _AttributeValue;
-
-  @override
-  $Res call({
-    Object? source = freezed,
-    Object? id = freezed,
-    Object? name = freezed,
-  }) {
-    return _then(_AttributeValue(
-      source: source == freezed
-          ? _value.source
-          : source // ignore: cast_nullable_to_non_nullable
-              as int?,
-      id: id == freezed
-          ? _value.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      name: name == freezed
-          ? _value.name
-          : name // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
-  }
-}
-
-/// @nodoc
-@JsonSerializable()
-class _$_AttributeValue implements _AttributeValue {
-  const _$_AttributeValue({this.source, this.id, this.name});
-
-  factory _$_AttributeValue.fromJson(Map<String, dynamic> json) =>
-      _$$_AttributeValueFromJson(json);
-
-  @override
-  final int? source;
-  @override
-  final String? id;
-  @override
-  final String? name;
-
-  @override
-  String toString() {
-    return 'AttributeValue(source: $source, id: $id, name: $name)';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _AttributeValue &&
-            const DeepCollectionEquality().equals(other.source, source) &&
-            const DeepCollectionEquality().equals(other.id, id) &&
-            const DeepCollectionEquality().equals(other.name, name));
-  }
-
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(source),
-      const DeepCollectionEquality().hash(id),
-      const DeepCollectionEquality().hash(name));
-
-  @JsonKey(ignore: true)
-  @override
-  _$AttributeValueCopyWith<_AttributeValue> get copyWith =>
-      __$AttributeValueCopyWithImpl<_AttributeValue>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$_AttributeValueToJson(this);
-  }
-}
-
-abstract class _AttributeValue implements AttributeValue {
-  const factory _AttributeValue({int? source, String? id, String? name}) =
-      _$_AttributeValue;
-
-  factory _AttributeValue.fromJson(Map<String, dynamic> json) =
-      _$_AttributeValue.fromJson;
-
-  @override
-  int? get source;
-  @override
-  String? get id;
-  @override
-  String? get name;
-  @override
-  @JsonKey(ignore: true)
-  _$AttributeValueCopyWith<_AttributeValue> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-Shipping _$ShippingFromJson(Map<String, dynamic> json) {
-  return _Shipping.fromJson(json);
-}
-
-/// @nodoc
-class _$ShippingTearOff {
-  const _$ShippingTearOff();
-
-  _Shipping call(
-      {bool? freeShipping,
-      String? mode,
-      List<String?>? tags,
-      String? logisticType,
-      bool? storePickUp}) {
-    return _Shipping(
-      freeShipping: freeShipping,
-      mode: mode,
-      tags: tags,
-      logisticType: logisticType,
-      storePickUp: storePickUp,
-    );
-  }
-
-  Shipping fromJson(Map<String, Object?> json) {
-    return Shipping.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $Shipping = _$ShippingTearOff();
-
-/// @nodoc
-mixin _$Shipping {
-  bool? get freeShipping => throw _privateConstructorUsedError;
-  String? get mode => throw _privateConstructorUsedError;
-  List<String?>? get tags => throw _privateConstructorUsedError;
-  String? get logisticType => throw _privateConstructorUsedError;
-  bool? get storePickUp => throw _privateConstructorUsedError;
-
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $ShippingCopyWith<Shipping> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $ShippingCopyWith<$Res> {
-  factory $ShippingCopyWith(Shipping value, $Res Function(Shipping) then) =
-      _$ShippingCopyWithImpl<$Res>;
-  $Res call(
-      {bool? freeShipping,
-      String? mode,
-      List<String?>? tags,
-      String? logisticType,
-      bool? storePickUp});
-}
-
-/// @nodoc
-class _$ShippingCopyWithImpl<$Res> implements $ShippingCopyWith<$Res> {
-  _$ShippingCopyWithImpl(this._value, this._then);
-
-  final Shipping _value;
-  // ignore: unused_field
-  final $Res Function(Shipping) _then;
-
-  @override
-  $Res call({
-    Object? freeShipping = freezed,
-    Object? mode = freezed,
-    Object? tags = freezed,
-    Object? logisticType = freezed,
-    Object? storePickUp = freezed,
-  }) {
-    return _then(_value.copyWith(
-      freeShipping: freeShipping == freezed
-          ? _value.freeShipping
-          : freeShipping // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      mode: mode == freezed
-          ? _value.mode
-          : mode // ignore: cast_nullable_to_non_nullable
-              as String?,
-      tags: tags == freezed
-          ? _value.tags
-          : tags // ignore: cast_nullable_to_non_nullable
-              as List<String?>?,
-      logisticType: logisticType == freezed
-          ? _value.logisticType
-          : logisticType // ignore: cast_nullable_to_non_nullable
-              as String?,
-      storePickUp: storePickUp == freezed
-          ? _value.storePickUp
-          : storePickUp // ignore: cast_nullable_to_non_nullable
-              as bool?,
-    ));
-  }
-}
-
-/// @nodoc
-abstract class _$ShippingCopyWith<$Res> implements $ShippingCopyWith<$Res> {
-  factory _$ShippingCopyWith(_Shipping value, $Res Function(_Shipping) then) =
-      __$ShippingCopyWithImpl<$Res>;
-  @override
-  $Res call(
-      {bool? freeShipping,
-      String? mode,
-      List<String?>? tags,
-      String? logisticType,
-      bool? storePickUp});
-}
-
-/// @nodoc
-class __$ShippingCopyWithImpl<$Res> extends _$ShippingCopyWithImpl<$Res>
-    implements _$ShippingCopyWith<$Res> {
-  __$ShippingCopyWithImpl(_Shipping _value, $Res Function(_Shipping) _then)
-      : super(_value, (v) => _then(v as _Shipping));
-
-  @override
-  _Shipping get _value => super._value as _Shipping;
-
-  @override
-  $Res call({
-    Object? freeShipping = freezed,
-    Object? mode = freezed,
-    Object? tags = freezed,
-    Object? logisticType = freezed,
-    Object? storePickUp = freezed,
-  }) {
-    return _then(_Shipping(
-      freeShipping: freeShipping == freezed
-          ? _value.freeShipping
-          : freeShipping // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      mode: mode == freezed
-          ? _value.mode
-          : mode // ignore: cast_nullable_to_non_nullable
-              as String?,
-      tags: tags == freezed
-          ? _value.tags
-          : tags // ignore: cast_nullable_to_non_nullable
-              as List<String?>?,
-      logisticType: logisticType == freezed
-          ? _value.logisticType
-          : logisticType // ignore: cast_nullable_to_non_nullable
-              as String?,
-      storePickUp: storePickUp == freezed
-          ? _value.storePickUp
-          : storePickUp // ignore: cast_nullable_to_non_nullable
-              as bool?,
-    ));
-  }
-}
-
-/// @nodoc
-@JsonSerializable()
-class _$_Shipping implements _Shipping {
-  const _$_Shipping(
-      {this.freeShipping,
-      this.mode,
-      this.tags,
-      this.logisticType,
-      this.storePickUp});
-
-  factory _$_Shipping.fromJson(Map<String, dynamic> json) =>
-      _$$_ShippingFromJson(json);
-
-  @override
-  final bool? freeShipping;
-  @override
-  final String? mode;
-  @override
-  final List<String?>? tags;
-  @override
-  final String? logisticType;
-  @override
-  final bool? storePickUp;
-
-  @override
-  String toString() {
-    return 'Shipping(freeShipping: $freeShipping, mode: $mode, tags: $tags, logisticType: $logisticType, storePickUp: $storePickUp)';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is _Shipping &&
-            const DeepCollectionEquality()
-                .equals(other.freeShipping, freeShipping) &&
-            const DeepCollectionEquality().equals(other.mode, mode) &&
-            const DeepCollectionEquality().equals(other.tags, tags) &&
-            const DeepCollectionEquality()
-                .equals(other.logisticType, logisticType) &&
-            const DeepCollectionEquality()
-                .equals(other.storePickUp, storePickUp));
-  }
-
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(freeShipping),
-      const DeepCollectionEquality().hash(mode),
-      const DeepCollectionEquality().hash(tags),
-      const DeepCollectionEquality().hash(logisticType),
-      const DeepCollectionEquality().hash(storePickUp));
-
-  @JsonKey(ignore: true)
-  @override
-  _$ShippingCopyWith<_Shipping> get copyWith =>
-      __$ShippingCopyWithImpl<_Shipping>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$_ShippingToJson(this);
-  }
-}
-
-abstract class _Shipping implements Shipping {
-  const factory _Shipping(
-      {bool? freeShipping,
-      String? mode,
-      List<String?>? tags,
-      String? logisticType,
-      bool? storePickUp}) = _$_Shipping;
-
-  factory _Shipping.fromJson(Map<String, dynamic> json) = _$_Shipping.fromJson;
-
-  @override
-  bool? get freeShipping;
-  @override
-  String? get mode;
-  @override
-  List<String?>? get tags;
-  @override
-  String? get logisticType;
-  @override
-  bool? get storePickUp;
-  @override
-  @JsonKey(ignore: true)
-  _$ShippingCopyWith<_Shipping> get copyWith =>
       throw _privateConstructorUsedError;
 }
