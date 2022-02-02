@@ -2,7 +2,6 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:isar/isar.dart';
-import 'package:market_libre/features/home/domain/models/search_entity.dart';
 
 part 'search_dto.freezed.dart';
 part 'search_dto.g.dart';
@@ -62,7 +61,6 @@ class ResultAttribute with _$ResultAttribute {
     String? valueId,
     String? name,
     String? valueName,
-    // ignore: invalid_annotation_target
     @Id() @Default(Isar.autoIncrement) int dbId,
   }) = _Attribute;
 

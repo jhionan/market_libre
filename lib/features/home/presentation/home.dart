@@ -36,6 +36,9 @@ class Home extends ConsumerWidget {
   }
 
   void _searchButton(BuildContext context, SearchCubit bloc) {
-    showSearch<void>(context: context, delegate: ProductSearchDelegate(bloc),);
+    showSearch<void>(
+      context: context,
+      delegate: ProductSearchDelegate(bloc),
+    );
   }
 }

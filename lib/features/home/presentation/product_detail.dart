@@ -17,14 +17,15 @@ class ProductDetail extends StatelessWidget {
           children: [
             ConstrainedBox(
               constraints: BoxConstraints(
-                maxHeight: MediaQuery.of(context).size.height/3
-              ),
+                  maxHeight: MediaQuery.of(context).size.height / 3),
               child: Image.network(
                 result.thumbnail ?? '',
                 fit: BoxFit.fitWidth,
               ),
             ),
-            const SizedBox(height: 16,),
+            const SizedBox(
+              height: 16,
+            ),
             Text(result.title ?? ''),
             const Divider(
               color: Colors.black,

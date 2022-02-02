@@ -15,9 +15,11 @@ part 'search_state.dart';
 class SearchCubit extends Cubit<SearchState> with Disposable {
   SearchCubit(this._datasource) : super(const SearchState.init()) {
     _featchLatestVisited();
-    _handleQueryThrottle.throttleTime(const Duration(seconds: 2)).listen((String query) {
-      if(query.runes.length > 2) {
-      _search(query: query);
+    _handleQueryThrottle
+        .throttleTime(const Duration(seconds: 2))
+        .listen((String query) {
+      if (query.runes.length > 2) {
+        _search(query: query);
       }
     });
   }
@@ -83,17 +85,13 @@ class SearchCubit extends Cubit<SearchState> with Disposable {
     _datasource.addLatestProduct(product).listen(
         (List<SearchResultEntity> value) {
       emit(state.copyWith(products: value));
-    }, onError: (Object _) {
-      //TODO
-    }).subscribe(this);
+    }, onError: (Object _) {}).subscribe(this);
   }
 
   void _featchLatestVisited() {
     _datasource.getLatestVisitedProducts().listen(
         (List<SearchResultEntity> product) {
       emit(state.copyWith(products: product));
-    }, onError: (Object error) {
-      //TODO
-    });
+    }, onError: (Object error) {});
   }
 }

@@ -18,11 +18,9 @@ class VisitedItem extends StatelessWidget {
         clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
           color: Colors.white,
-          boxShadow: const [BoxShadow(
-            color: Colors.grey,
-            blurRadius: 4,
-            offset: Offset(2, 2)
-          )],
+          boxShadow: const [
+            BoxShadow(color: Colors.grey, blurRadius: 4, offset: Offset(2, 2))
+          ],
           borderRadius: BorderRadius.circular(20),
         ),
         child: Column(

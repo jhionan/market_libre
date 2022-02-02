@@ -53,7 +53,7 @@ class SearchDatasource {
         .asyncExpand((SearchDto searchDto) async* {
       final ReceivePort receivePort = ReceivePort();
 
-      Isolate isolate = await Isolate.spawn(
+      await Isolate.spawn(
           _searchWorkerIsolate,
           _SearchDtoIsolateData(
               searchDto: searchDto, sendPort: receivePort.sendPort));

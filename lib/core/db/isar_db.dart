@@ -37,14 +37,10 @@ class IsarDb {
   }
 
   Future<List<SearchResultEntity>> getResult() async {
-    return await _isar.searchResultEntitys.where()
-
-    .findAll();
+    return await _isar.searchResultEntitys.where().findAll();
   }
 
   Future<bool> delete(int id) async {
-    return _isar.writeTxn<bool>(
-        (isar) => isar.searchResultEntitys.delete(id));
-    
+    return _isar.writeTxn<bool>((isar) => isar.searchResultEntitys.delete(id));
   }
 }

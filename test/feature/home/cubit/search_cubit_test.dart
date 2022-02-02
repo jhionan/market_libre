@@ -31,8 +31,8 @@ void main() {
       SearchCubit _cubit = _searchCubitFactory();
 
       //First event is called by constructor trying to load anyd visited produc
-      //second event load the Set of words that we show on the sugestion at search
-      //view
+      //second event load the Set of words that we show on the sugestion
+      //at search view
       expect(
           _cubit.stream,
           emitsInAnyOrder(<Object?>[

@@ -17,4 +17,3 @@ ThemeData appTheme = ThemeData(
         onBackground: Colors.black,
         onError: Colors.white,
         brightness: Brightness.light));
-

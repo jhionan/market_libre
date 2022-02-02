@@ -47,7 +47,7 @@ class SearchResultEntity with _$SearchResultEntity {
     @Default('USD') String? currency,
     @Default('') String? condition,
     @Default('') String? thumbnail,
-    @Default('')String attributesJson,
+    @Default('') String attributesJson,
     @Default(<ResultAttribute>[]) List<ResultAttribute>? attributes,
   }) = _SearchResultEntity;
 }

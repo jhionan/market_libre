@@ -20,30 +20,29 @@ void main() {
         .thenAnswer((_) => Stream<SearchDto>.value(searchResultStubed()));
     when(_db.getResult()).thenAnswer((_) => Future.value([]));
     mockNetworkImagesFor(() async {
-    await tester.pumpWidget(ProviderScope(
-      child: const Application(),
-      overrides: [
-        SearchDi.searchCubitProvider
-            .overrideWithValue(SearchCubit(SearchDatasource(_searchApi, _db)))
-      ],
-    ));
+      await tester.pumpWidget(ProviderScope(
+        child: const Application(),
+        overrides: [
+          SearchDi.searchCubitProvider
+              .overrideWithValue(SearchCubit(SearchDatasource(_searchApi, _db)))
+        ],
+      ));
 
-    //find the search button
-    Finder _searchButton = find.byIcon(Icons.search);
-    expect(_searchButton, findsOneWidget);
+      //find the search button
+      Finder _searchButton = find.byIcon(Icons.search);
+      expect(_searchButton, findsOneWidget);
 
-    await tester.tap(_searchButton);
-    await tester.pumpAndSettle();
+      await tester.tap(_searchButton);
+      await tester.pumpAndSettle();
 
-    //expect navigate to SearchView
-    Finder _textField = find.byType(TextField);
-    expect(_textField, findsOneWidget);
+      //expect navigate to SearchView
+      Finder _textField = find.byType(TextField);
+      expect(_textField, findsOneWidget);
 
-    Finder _searchButtonDelegate =
-        find.byKey(const ValueKey<String>('searchDelegate'));
+      Finder _searchButtonDelegate =
+          find.byKey(const ValueKey<String>('searchDelegate'));
 
-    expect(_searchButtonDelegate, findsOneWidget);
-
+      expect(_searchButtonDelegate, findsOneWidget);
     });
   });
 }
