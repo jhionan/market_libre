@@ -22,12 +22,14 @@ class _$SearchStateTearOff {
       {SearchEntity? searchItems,
       Set<String> searchWords = const <String>{},
       StateType type = StateType.seach,
-      List<SearchResultEntity> products = const <SearchResultEntity>[]}) {
+      List<SearchResultEntity> products = const <SearchResultEntity>[],
+      bool isSearchLoading = false}) {
     return SearchStateResult(
       searchItems: searchItems,
       searchWords: searchWords,
       type: type,
       products: products,
+      isSearchLoading: isSearchLoading,
     );
   }
 
@@ -35,12 +37,14 @@ class _$SearchStateTearOff {
       {SearchEntity? searchItems,
       Set<String> searchWords = const <String>{},
       StateType type = StateType.seach,
-      List<SearchResultEntity> products = const <SearchResultEntity>[]}) {
+      List<SearchResultEntity> products = const <SearchResultEntity>[],
+      bool isSearchLoading = false}) {
     return SearchStateInit(
       searchItems: searchItems,
       searchWords: searchWords,
       type: type,
       products: products,
+      isSearchLoading: isSearchLoading,
     );
   }
 }
@@ -54,37 +58,59 @@ mixin _$SearchState {
   Set<String> get searchWords => throw _privateConstructorUsedError;
   StateType get type => throw _privateConstructorUsedError;
   List<SearchResultEntity> get products => throw _privateConstructorUsedError;
+  bool get isSearchLoading => throw _privateConstructorUsedError;
 
   @optionalTypeArgs
   TResult when<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         $default, {
     required TResult Function(
             SearchEntity? searchItems,
             Set<String> searchWords,
             StateType type,
-            List<SearchResultEntity> products)
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         init,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
     required TResult orElse(),
   }) =>
@@ -123,7 +149,8 @@ abstract class $SearchStateCopyWith<$Res> {
       {SearchEntity? searchItems,
       Set<String> searchWords,
       StateType type,
-      List<SearchResultEntity> products});
+      List<SearchResultEntity> products,
+      bool isSearchLoading});
 
   $SearchEntityCopyWith<$Res>? get searchItems;
 }
@@ -142,6 +169,7 @@ class _$SearchStateCopyWithImpl<$Res> implements $SearchStateCopyWith<$Res> {
     Object? searchWords = freezed,
     Object? type = freezed,
     Object? products = freezed,
+    Object? isSearchLoading = freezed,
   }) {
     return _then(_value.copyWith(
       searchItems: searchItems == freezed
@@ -160,6 +188,10 @@ class _$SearchStateCopyWithImpl<$Res> implements $SearchStateCopyWith<$Res> {
           ? _value.products
           : products // ignore: cast_nullable_to_non_nullable
               as List<SearchResultEntity>,
+      isSearchLoading: isSearchLoading == freezed
+          ? _value.isSearchLoading
+          : isSearchLoading // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
   }
 
@@ -186,7 +218,8 @@ abstract class $SearchStateResultCopyWith<$Res>
       {SearchEntity? searchItems,
       Set<String> searchWords,
       StateType type,
-      List<SearchResultEntity> products});
+      List<SearchResultEntity> products,
+      bool isSearchLoading});
 
   @override
   $SearchEntityCopyWith<$Res>? get searchItems;
@@ -209,6 +242,7 @@ class _$SearchStateResultCopyWithImpl<$Res>
     Object? searchWords = freezed,
     Object? type = freezed,
     Object? products = freezed,
+    Object? isSearchLoading = freezed,
   }) {
     return _then(SearchStateResult(
       searchItems: searchItems == freezed
@@ -227,6 +261,10 @@ class _$SearchStateResultCopyWithImpl<$Res>
           ? _value.products
           : products // ignore: cast_nullable_to_non_nullable
               as List<SearchResultEntity>,
+      isSearchLoading: isSearchLoading == freezed
+          ? _value.isSearchLoading
+          : isSearchLoading // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
   }
 }
@@ -240,7 +278,8 @@ class _$SearchStateResult
       {this.searchItems,
       this.searchWords = const <String>{},
       this.type = StateType.seach,
-      this.products = const <SearchResultEntity>[]});
+      this.products = const <SearchResultEntity>[],
+      this.isSearchLoading = false});
 
   @override
   final SearchEntity? searchItems;
@@ -253,10 +292,13 @@ class _$SearchStateResult
   @JsonKey()
   @override
   final List<SearchResultEntity> products;
+  @JsonKey()
+  @override
+  final bool isSearchLoading;
 
   @override
   String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
-    return 'SearchState(searchItems: $searchItems, searchWords: $searchWords, type: $type, products: $products)';
+    return 'SearchState(searchItems: $searchItems, searchWords: $searchWords, type: $type, products: $products, isSearchLoading: $isSearchLoading)';
   }
 
   @override
@@ -267,7 +309,8 @@ class _$SearchStateResult
       ..add(DiagnosticsProperty('searchItems', searchItems))
       ..add(DiagnosticsProperty('searchWords', searchWords))
       ..add(DiagnosticsProperty('type', type))
-      ..add(DiagnosticsProperty('products', products));
+      ..add(DiagnosticsProperty('products', products))
+      ..add(DiagnosticsProperty('isSearchLoading', isSearchLoading));
   }
 
   @override
@@ -280,7 +323,9 @@ class _$SearchStateResult
             const DeepCollectionEquality()
                 .equals(other.searchWords, searchWords) &&
             const DeepCollectionEquality().equals(other.type, type) &&
-            const DeepCollectionEquality().equals(other.products, products));
+            const DeepCollectionEquality().equals(other.products, products) &&
+            const DeepCollectionEquality()
+                .equals(other.isSearchLoading, isSearchLoading));
   }
 
   @override
@@ -289,7 +334,8 @@ class _$SearchStateResult
       const DeepCollectionEquality().hash(searchItems),
       const DeepCollectionEquality().hash(searchWords),
       const DeepCollectionEquality().hash(type),
-      const DeepCollectionEquality().hash(products));
+      const DeepCollectionEquality().hash(products),
+      const DeepCollectionEquality().hash(isSearchLoading));
 
   @JsonKey(ignore: true)
   @override
@@ -299,45 +345,68 @@ class _$SearchStateResult
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         $default, {
     required TResult Function(
             SearchEntity? searchItems,
             Set<String> searchWords,
             StateType type,
-            List<SearchResultEntity> products)
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         init,
   }) {
-    return $default(searchItems, searchWords, type, products);
+    return $default(searchItems, searchWords, type, products, isSearchLoading);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
   }) {
-    return $default?.call(searchItems, searchWords, type, products);
+    return $default?.call(
+        searchItems, searchWords, type, products, isSearchLoading);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
     required TResult orElse(),
   }) {
     if ($default != null) {
-      return $default(searchItems, searchWords, type, products);
+      return $default(
+          searchItems, searchWords, type, products, isSearchLoading);
     }
     return orElse();
   }
@@ -379,7 +448,8 @@ abstract class SearchStateResult implements SearchState {
       {SearchEntity? searchItems,
       Set<String> searchWords,
       StateType type,
-      List<SearchResultEntity> products}) = _$SearchStateResult;
+      List<SearchResultEntity> products,
+      bool isSearchLoading}) = _$SearchStateResult;
 
   @override
   SearchEntity? get searchItems;
@@ -389,6 +459,8 @@ abstract class SearchStateResult implements SearchState {
   StateType get type;
   @override
   List<SearchResultEntity> get products;
+  @override
+  bool get isSearchLoading;
   @override
   @JsonKey(ignore: true)
   $SearchStateResultCopyWith<SearchStateResult> get copyWith =>
@@ -406,7 +478,8 @@ abstract class $SearchStateInitCopyWith<$Res>
       {SearchEntity? searchItems,
       Set<String> searchWords,
       StateType type,
-      List<SearchResultEntity> products});
+      List<SearchResultEntity> products,
+      bool isSearchLoading});
 
   @override
   $SearchEntityCopyWith<$Res>? get searchItems;
@@ -429,6 +502,7 @@ class _$SearchStateInitCopyWithImpl<$Res>
     Object? searchWords = freezed,
     Object? type = freezed,
     Object? products = freezed,
+    Object? isSearchLoading = freezed,
   }) {
     return _then(SearchStateInit(
       searchItems: searchItems == freezed
@@ -447,6 +521,10 @@ class _$SearchStateInitCopyWithImpl<$Res>
           ? _value.products
           : products // ignore: cast_nullable_to_non_nullable
               as List<SearchResultEntity>,
+      isSearchLoading: isSearchLoading == freezed
+          ? _value.isSearchLoading
+          : isSearchLoading // ignore: cast_nullable_to_non_nullable
+              as bool,
     ));
   }
 }
@@ -460,7 +538,8 @@ class _$SearchStateInit
       {this.searchItems,
       this.searchWords = const <String>{},
       this.type = StateType.seach,
-      this.products = const <SearchResultEntity>[]});
+      this.products = const <SearchResultEntity>[],
+      this.isSearchLoading = false});
 
   @override
   final SearchEntity? searchItems;
@@ -473,10 +552,13 @@ class _$SearchStateInit
   @JsonKey()
   @override
   final List<SearchResultEntity> products;
+  @JsonKey()
+  @override
+  final bool isSearchLoading;
 
   @override
   String toString({DiagnosticLevel minLevel = DiagnosticLevel.info}) {
-    return 'SearchState.init(searchItems: $searchItems, searchWords: $searchWords, type: $type, products: $products)';
+    return 'SearchState.init(searchItems: $searchItems, searchWords: $searchWords, type: $type, products: $products, isSearchLoading: $isSearchLoading)';
   }
 
   @override
@@ -487,7 +569,8 @@ class _$SearchStateInit
       ..add(DiagnosticsProperty('searchItems', searchItems))
       ..add(DiagnosticsProperty('searchWords', searchWords))
       ..add(DiagnosticsProperty('type', type))
-      ..add(DiagnosticsProperty('products', products));
+      ..add(DiagnosticsProperty('products', products))
+      ..add(DiagnosticsProperty('isSearchLoading', isSearchLoading));
   }
 
   @override
@@ -500,7 +583,9 @@ class _$SearchStateInit
             const DeepCollectionEquality()
                 .equals(other.searchWords, searchWords) &&
             const DeepCollectionEquality().equals(other.type, type) &&
-            const DeepCollectionEquality().equals(other.products, products));
+            const DeepCollectionEquality().equals(other.products, products) &&
+            const DeepCollectionEquality()
+                .equals(other.isSearchLoading, isSearchLoading));
   }
 
   @override
@@ -509,7 +594,8 @@ class _$SearchStateInit
       const DeepCollectionEquality().hash(searchItems),
       const DeepCollectionEquality().hash(searchWords),
       const DeepCollectionEquality().hash(type),
-      const DeepCollectionEquality().hash(products));
+      const DeepCollectionEquality().hash(products),
+      const DeepCollectionEquality().hash(isSearchLoading));
 
   @JsonKey(ignore: true)
   @override
@@ -519,45 +605,67 @@ class _$SearchStateInit
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         $default, {
     required TResult Function(
             SearchEntity? searchItems,
             Set<String> searchWords,
             StateType type,
-            List<SearchResultEntity> products)
+            List<SearchResultEntity> products,
+            bool isSearchLoading)
         init,
   }) {
-    return init(searchItems, searchWords, type, products);
+    return init(searchItems, searchWords, type, products, isSearchLoading);
   }
 
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
   }) {
-    return init?.call(searchItems, searchWords, type, products);
+    return init?.call(
+        searchItems, searchWords, type, products, isSearchLoading);
   }
 
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>(
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         $default, {
-    TResult Function(SearchEntity? searchItems, Set<String> searchWords,
-            StateType type, List<SearchResultEntity> products)?
+    TResult Function(
+            SearchEntity? searchItems,
+            Set<String> searchWords,
+            StateType type,
+            List<SearchResultEntity> products,
+            bool isSearchLoading)?
         init,
     required TResult orElse(),
   }) {
     if (init != null) {
-      return init(searchItems, searchWords, type, products);
+      return init(searchItems, searchWords, type, products, isSearchLoading);
     }
     return orElse();
   }
@@ -599,7 +707,8 @@ abstract class SearchStateInit implements SearchState {
       {SearchEntity? searchItems,
       Set<String> searchWords,
       StateType type,
-      List<SearchResultEntity> products}) = _$SearchStateInit;
+      List<SearchResultEntity> products,
+      bool isSearchLoading}) = _$SearchStateInit;
 
   @override
   SearchEntity? get searchItems;
@@ -609,6 +718,8 @@ abstract class SearchStateInit implements SearchState {
   StateType get type;
   @override
   List<SearchResultEntity> get products;
+  @override
+  bool get isSearchLoading;
   @override
   @JsonKey(ignore: true)
   $SearchStateInitCopyWith<SearchStateInit> get copyWith =>

@@ -34,7 +34,7 @@ class SearchCubit extends Cubit<SearchState> with Disposable {
   }) {
     emit(SearchStateResult(
         type: isSearch ? StateType.seach : StateType.result,
-        products: state.products));
+        products: state.products, isSearchLoading: true));
 
     _datasource
         .search(query: query, offset: isSearch ? 0 : offset)
@@ -54,7 +54,7 @@ class SearchCubit extends Cubit<SearchState> with Disposable {
       emit(state.copyWith(
           searchItems: isSearch ? null : searchEntity,
           searchWords: words,
-          type: isSearch ? StateType.seach : StateType.result));
+          type: isSearch ? StateType.seach : StateType.result,  isSearchLoading: false));
     }, onError: (Object error) {
       addError(error);
     }).subscribe(this);
