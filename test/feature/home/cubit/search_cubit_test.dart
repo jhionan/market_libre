@@ -1,4 +1,3 @@
-
 import 'package:flutter_test/flutter_test.dart';
 import 'package:market_libre/core/db/isar_db.dart';
 import 'package:market_libre/features/home/data/api/search_api.dart';
@@ -41,7 +40,8 @@ void main() {
                 searchItems: null,
                 searchWords: {},
                 type: StateType.seach,
-                products: []),
+                products: [],
+                isSearchLoading: true),
             const SearchState(
                 searchItems: null,
                 searchWords: {
@@ -57,7 +57,8 @@ void main() {
                   '10'
                 },
                 type: StateType.seach,
-                products: [])
+                products: [],
+                isSearchLoading: false)
           ]));
       _cubit.searchQuery('query');
       await untilCalled(_searchApi.search(any, any, any));
@@ -80,7 +81,8 @@ void main() {
                     searchItems: null,
                     searchWords: {},
                     type: StateType.result,
-                    products: []));
+                    products: [],
+                    isSearchLoading: true));
           } else if (streamCount == 1) {
             expect(
                 event,
@@ -88,7 +90,8 @@ void main() {
                     searchItems: result,
                     searchWords: {},
                     type: StateType.result,
-                    products: []));
+                    products: [],
+                    isSearchLoading: false));
           }
           streamCount++;
         },
