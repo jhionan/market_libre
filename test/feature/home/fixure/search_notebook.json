@@ -1,0 +1,5622 @@
+{ "site_id" : "MLU" ,
+    "country_default_time_zone" : "GMT-03:00" ,
+    "query" : "notebook" ,
+    "paging" : {
+       
+     "total" :  12051 ,
+      "primary_results" :  1000 ,
+      "offset" :  0 ,
+      "limit" :  1
+   } ,
+    "results" :  [
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "2 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "3 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "4 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "5 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "6 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "7 - Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "8 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "9 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     },
+     {
+       "id" :  "MLU480834728" ,
+        "site_id" :  "MLU" ,
+        "title" :  "10 Notebook Lenovo Ideapad 15iml05 Abyss Blue Touch 15.6, Intel Core I3 10110u 8gb Ram 256gb Ssd, Intel Uhd Graphics 620 1366x768px Windows 10 Home" ,
+        "seller" : {
+         "id" :  133148686 ,
+          "permalink" :  null ,
+          "registration_date" :  null ,
+          "car_dealer" :  false ,
+          "real_estate_agency" :  false ,
+          "tags" :  null
+       } ,
+        "price" :  719 ,
+        "prices" : {
+         "id" :  "MLU480834728" ,
+          "prices" : [
+           {
+             "id" :  "1" ,
+              "type" :  "standard" ,
+              "amount" :  785 ,
+              "regular_amount" :  null ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2021-07-21T20:59:00Z " ,
+              "conditions" : {
+               "context_restrictions" :  [ 
+               ] ,
+                "start_time" :  null ,
+                "end_time" :  null ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" :  { 
+             }
+           } ,
+           {
+             "id" :  "1171" ,
+              "type" :  "promotion" ,
+              "amount" :  719 ,
+              "regular_amount" :  785 ,
+              "currency_id" :  "USD" ,
+              "last_updated" :  "2022-01-26T21:16:52Z " ,
+              "conditions" : {
+               "context_restrictions" : [
+                 "channel_marketplace"
+               ] ,
+                "start_time" :  "2018-03-26T02:30:00Z" ,
+                "end_time" :  "2023-01-01T02:59:00Z" ,
+                "eligible" :  true
+             } ,
+              "exchange_rate_context" :  "DEFAULT" ,
+              "metadata" : {
+               "campaign_id" :  "MLU380" ,
+                "promotion_id" :  "MLU380" ,
+                "promotion_type" :  "campaign"
+             }
+           }
+         ] ,
+          "presentation" : {
+           "display_currency" :  "USD"
+         } ,
+          "payment_method_prices" :  [ 
+         ] ,
+          "reference_prices" :  [ 
+         ] ,
+          "purchase_discounts" :  [ 
+         ]
+       } ,
+        "sale_price" :  null ,
+        "currency_id" :  "USD" ,
+        "available_quantity" :  28 ,
+        "sold_quantity" :  87 ,
+        "buying_mode" :  "buy_it_now" ,
+        "listing_type_id" :  "gold_special" ,
+        "stop_time" :  "2041 -07-16T04:00:00.000Z" ,
+        "condition" :  "new" ,
+        "permalink" : "https://www.mercadolibre.com.uy/notebook-lenovo-ideapad-15iml05-abyss-blue-tactil-156-intel-core-i3-10110u-8gb-de-ram-256gb-ssd-intel-uhd -graphics-620-1366x768px-windows-10-home/p/MLU18159435" ,
+        "thumbnail" :  "http://http2.mlstatic.com/D_709848-MLA48707885431_122021-I.jpg" ,
+        "thumbnail_id" :  "709848-MLA487078852431 " ,
+        "accepts_mercadopago" :  true ,
+        "installments" :  null ,
+        "address" : {
+         "state_id" :  "UY-MO" ,
+          "state_name" :  "Montevideo" ,
+          "city_id" :  "TUxVQ0NFTjVjMTM" ,
+          "city_name" :  "Centro"
+       } ,
+        "shipping" : {
+         "free_shipping" :  true ,
+          "mode" :  "me2" ,
+          "tags" : [
+           "self_service_in" ,
+            "fs_threshold_mlu_USD_jul2021" ,
+            "mandatory_free_shipping"
+         ] ,
+          "logistic_type" :  "drop_off" ,
+          "store_pick_up" :  false
+       } ,
+        "seller_address" : {
+         "id" :  "" ,
+          "comment" :  "" ,
+          "address_line" :  "" ,
+          "zip_code" :  "" ,
+          "country" : {
+           "id" :  "UY" ,
+            "name" :  "Uruguay"
+         } ,
+          "state" : {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo"
+         } ,
+          "city" : {
+           "id" :  "TUxVQ0NFTjVjMTM" ,
+            "name" :  "Center"
+         } ,
+          "latitude" :  "" ,
+          "longitude" :  ""
+       } ,
+        "attributes" : [
+         {
+           "value_id" :  "10720204" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720204" ,
+                "name" :  "15IML05" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "ALPHANUMERIC_MODEL" ,
+            "value_name" :  "15IML05" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "name" :  "Alphanumeric Model"
+         } ,
+         {
+           "id" :  "BRAND" ,
+            "value_name" :  "Lenovo" ,
+            "source" :  1 ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "name" :  "Brand" ,
+            "value_id" :  "7494" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "7494" ,
+                "name" :  "Lenovo" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "name" :  "Detailed Model" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "10720206" ,
+                "name" :  "81WR000FUS" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "id" :  "DETAILED_MODEL" ,
+            "value_id" :  "10720206" ,
+            "value_name" :  "81WR000FUS" ,
+            "source" :  1
+         } ,
+         {
+           "name" :  "Item condition" ,
+            "value_id" :  "2230284" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  4123967084322934 ,
+            "id" :  "ITEM_CONDITION" ,
+            "value_name" :  "new" ,
+            "values" : [
+             {
+               "id" :  "2230284" ,
+                "name" :  "New" ,
+                "struct" :  null ,
+                "source" :  4123967084322934
+             }
+           ] ,
+            "attribute_group_name" :  "Other"
+         } ,
+         {
+           "value_id" :  "27211" ,
+            "value_name" :  "IdeaPad" ,
+            "values" : [
+             {
+               "id" :  "27211" ,
+                "name" :  "IdeaPad" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "LINE" ,
+            "name" :  "Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "name" :  "Model" ,
+            "source" :  1 ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "49506" ,
+                "name" :  "3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "id" :  "MODEL" ,
+            "value_id" :  "49506" ,
+            "value_name" :  "3"
+         } ,
+         {
+           "value_id" :  "7855833" ,
+            "value_struct" :  null ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_BRAND" ,
+            "name" :  "Processor Brand" ,
+            "value_name" :  "Intel" ,
+            "values" : [
+             {
+               "struct" :  null ,
+                "source" :  1 ,
+                "id" :  "7855833" ,
+                "name" :  "Intel"
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS"
+         } ,
+         {
+           "value_name" :  "Core i3" ,
+            "values" : [
+             {
+               "id" :  "7769179" ,
+                "name" :  "Core i3" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ] ,
+            "value_id" :  "7769179" ,
+            "name" :  "Processor Line" ,
+            "value_struct" :  null ,
+            "attribute_group_id" :  "OTHERS" ,
+            "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id " :  "PROCESSOR_LINE"
+         } ,
+         {
+           "attribute_group_name" :  "Other" ,
+            "source" :  1 ,
+            "id" :  "PROCESSOR_MODEL" ,
+            "name" :  "Processor Model" ,
+            "value_id" :  "8208250" ,
+            "attribute_group_id" :  "OTHERS" ,
+            "value_name " :  "10110U" ,
+            "value_struct" :  null ,
+            "values" : [
+             {
+               "id" :  "8208250" ,
+                "name" :  "10110U" ,
+                "struct" :  null ,
+                "source" :  1
+             }
+           ]
+         } ,
+         {
+           "id" :  "WEIGHT" ,
+            "name" :  "Peso" ,
+            "attribute_group_name" :  "Other" ,
+            "value_id" :  "3441" ,
+            "value_name" :  "1.7 kg" ,
+            "value_struct" : {
+             "number" :  1.7 ,
+              "unit" :  "kg"
+           } ,
+            "values" : [
+             {
+               "id" :  "3441" ,
+                "name" :  "1.7kg" ,
+                "struct" : {
+                 "number" :  1.7 ,
+                  "unit" :  "kg"
+               } ,
+                "source" :  1
+             }
+           ] ,
+            "attribute_group_id" :  "OTHERS" ,
+            "source" :  1
+         }
+       ] ,
+        "original_price" :  785 ,
+        "category_id" :  "MLU1652" ,
+        "official_store_id" :  null ,
+        "domain_id" :  "MLU-NOTEBOOKS" ,
+        "catalog_product_id" :  "MLU18159435" ,
+        "tags" : [
+         "good_quality_picture" ,
+          "loyalty_discount_eligible" ,
+          "immediate_payment" ,
+          "cart_eligible" ,
+          "best_seller_candidate"
+       ] ,
+        "catalog_listing" :  true ,
+        "use_thumbnail_id" :  true ,
+        "offer_score" :  null ,
+        "offer_share" :  null ,
+        "match_score" :  null ,
+        "winner_item_id" :  null ,
+        "melicoin" :  null ,
+        "order_backend" :  1
+     }
+   ] ,
+    "sort" :  {
+     "id" :  "relevance" ,
+      "name" :  "More relevant"
+   } ,
+    "available_sorts" :  [
+     {
+       "id" :  "price_asc" ,
+        "name" :  "Lower price"
+     } ,
+     {
+       "id" :  "price_desc" ,
+        "name" :  "Higher price"
+     }
+   ] ,
+    "filters" :  [
+     {
+       "id" :  "category" ,
+        "name" :  "Categories" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "MLU1652" ,
+            "name" :  "Notebooks" ,
+            "path_from_root" : [
+             {
+               "id" :  "MLU1648" ,
+                "name" :  "Computing"
+             } ,
+             {
+               "id" :  "MLU3646" ,
+                "name" :  "Laptops & Accessories"
+             } ,
+             {
+               "id" :  "MLU1652" ,
+                "name" :  "Notebooks"
+             }
+           ]
+         }
+       ]
+     }
+   ] ,
+    "available_filters" :  [
+     {
+       "id" :  "official_store" ,
+        "name" :  "Official Stores" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "all" ,
+            "name" :  "All Official Stores" ,
+            "results" :  152
+         } ,
+         {
+           "id" :  "638" ,
+            "name" :  "LOi" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "564" ,
+            "name" :  "Office 2000" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "628" ,
+            "name" :  "ZonaTecno" ,
+            "results" :  53
+         }
+       ]
+     } ,
+     {
+       "id" :  "discount" ,
+        "name" :  "Discounts" ,
+        "type" :  "number" ,
+        "values" : [
+         {
+           "id" :  "5-100" ,
+            "name" :  "From 5% OFF" ,
+            "results" :  198
+         } ,
+         {
+           "id" :  "10-100" ,
+            "name" :  "From 10% OFF" ,
+            "results" :  124
+         } ,
+         {
+           "id" :  "15-100" ,
+            "name" :  "From 15% OFF" ,
+            "results" :  82
+         } ,
+         {
+           "id" :  "20-100" ,
+            "name" :  "From 20% OFF" ,
+            "results" :  59
+         } ,
+         {
+           "id" :  "25-100" ,
+            "name" :  "From 25% OFF" ,
+            "results" :  35
+         } ,
+         {
+           "id" :  "30-100" ,
+            "name" :  "From 30% OFF" ,
+            "results" :  16
+         }
+       ]
+     } ,
+     {
+       "id" :  "state" ,
+        "name" :  "Location" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "UY-MO" ,
+            "name" :  "Montevideo" ,
+            "results" :  10290
+         } ,
+         {
+           "id" :  "UY-MA" ,
+            "name" :  "Maldonado" ,
+            "results" :  926
+         } ,
+         {
+           "id" :  "UY-CA" ,
+            "name" :  "Cannelloni" ,
+            "results" :  389
+         } ,
+         {
+           "id" :  "UY-CO" ,
+            "name" :  "Colony" ,
+            "results" :  61
+         } ,
+         {
+           "id" :  "UY-PA" ,
+            "name" :  "Paysandú" ,
+            "results" :  48
+         } ,
+         {
+           "id" :  "UY-SJ" ,
+            "name" :  "San Jose" ,
+            "results" :  47
+         } ,
+         {
+           "id" :  "UY-SA" ,
+            "name" :  "Jump" ,
+            "results" :  38
+         } ,
+         {
+           "id" :  "UY-TT" ,
+            "name" :  "Thirty-Three" ,
+            "results" :  32
+         } ,
+         {
+           "id" :  "UY-SO" ,
+            "name" :  "Soriano" ,
+            "results" :  30
+         } ,
+         {
+           "id" :  "UY-RN" ,
+            "name" :  "Black River" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "UY-RO" ,
+            "name" :  "Rocha" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "UY-AR" ,
+            "name" :  "Artigas" ,
+            "results" :  21
+         } ,
+         {
+           "id" :  "UY-FD" ,
+            "name" :  "Florida" ,
+            "results" :  21
+         } ,
+         {
+           "id" :  "UY-RV" ,
+            "name" :  "Rivera" ,
+            "results" :  21
+         } ,
+         {
+           "id" :  "UY-TA" ,
+            "name" :  "Tacuarembo" ,
+            "results" :  21
+         } ,
+         {
+           "id" :  "UY-LA" ,
+            "name" :  "Lavalleja" ,
+            "results" :  20
+         } ,
+         {
+           "id" :  "UY-DU" ,
+            "name" :  "Peach" ,
+            "results" :  19
+         } ,
+         {
+           "id" :  "UY-FS" ,
+            "name" :  "Flowers" ,
+            "results" :  11
+         } ,
+         {
+           "id" :  "UY-CL" ,
+            "name" :  "Cerro Largo" ,
+            "results" :  7
+         }
+       ]
+     } ,
+     {
+       "id" :  "price" ,
+        "name" :  "Price" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "*-20000.0" ,
+            "name" :  "Up to $20,000" ,
+            "results" :  4014
+         } ,
+         {
+           "id" :  "20000.0-45000.0" ,
+            "name" :  "$20,000 to $45,000" ,
+            "results" :  3971
+         } ,
+         {
+           "id" :  "45000.0-*" ,
+            "name" :  "More than $45,000" ,
+            "results" :  4066
+         }
+       ]
+     } ,
+     {
+       "id" :  "accepts_mercadopago" ,
+        "name" :  "MercadoPago filter" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "yes" ,
+            "name" :  "With MercadoPago" ,
+            "results" :  12051
+         }
+       ]
+     } ,
+     {
+       "id" :  "installments" ,
+        "name" :  "Payment" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "yes" ,
+            "name" :  "Installments" ,
+            "results" :  12009
+         }
+       ]
+     } ,
+     {
+       "id" :  "shipping" ,
+        "name" :  "Shipping" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "mercadoenvios" ,
+            "name" :  "Mercado Envios" ,
+            "results" :  10590
+         }
+       ]
+     } ,
+     {
+       "id" :  "power_seller" ,
+        "name" :  "Seller quality filter" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "yes" ,
+            "name" :  "Bestsellers" ,
+            "results" :  7909
+         }
+       ]
+     } ,
+     {
+       "id" :  "since" ,
+        "name" :  "Auction start date filter" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "today" ,
+            "name" :  "Published today" ,
+            "results" :  33
+         }
+       ]
+     } ,
+     {
+       "id" :  "until" ,
+        "name" :  "Auction stop filter" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "today" ,
+            "name" :  "Ending today" ,
+            "results" :  9
+         }
+       ]
+     } ,
+     {
+       "id" :  "has_video" ,
+        "name" :  "Video publications filter" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "yes" ,
+            "name" :  "Publications with video" ,
+            "results" :  407
+         }
+       ]
+     } ,
+     {
+       "id" :  "has_pictures" ,
+        "name" :  "Items with images filter" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "yes" ,
+            "name" :  "With pictures" ,
+            "results" :  12046
+         }
+       ]
+     } ,
+     {
+       "id" :  "price_campaign_id" ,
+        "name" :  "Campaign" ,
+        "type" :  "number" ,
+        "values" : [
+         {
+           "id" :  "MLU380" ,
+            "name" :  "MLU380" ,
+            "results" :  45
+         }
+       ]
+     } ,
+     {
+       "id" :  "shipping_cost" ,
+        "name" :  "Shipping cost" ,
+        "type" :  "text" ,
+        "values" : [
+         {
+           "id" :  "free" ,
+            "name" :  "Free" ,
+            "results" :  9029
+         }
+       ]
+     } ,
+     {
+       "id" :  "BRAND" ,
+        "name" :  "Brand" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "9344" ,
+            "name" :  "Apple" ,
+            "results" :  2224
+         } ,
+         {
+           "id" :  "7494" ,
+            "name" :  "Lenovo" ,
+            "results" :  1914
+         } ,
+         {
+           "id" :  "49944" ,
+            "name" :  "HP" ,
+            "results" :  1706
+         } ,
+         {
+           "id" :  "7294334" ,
+            "name" :  "Asus" ,
+            "results" :  1527
+         } ,
+         {
+           "id" :  "15903" ,
+            "name" :  "Acer" ,
+            "results" :  1241
+         } ,
+         {
+           "id" :  "8216" ,
+            "name" :  "Dell" ,
+            "results" :  749
+         } ,
+         {
+           "id" :  "38503" ,
+            "name" :  "Gateway" ,
+            "results" :  542
+         } ,
+         {
+           "id" :  "16215" ,
+            "name" :  "MSI" ,
+            "results" :  445
+         } ,
+         {
+           "id" :  "2045" ,
+            "name" :  "Toshiba" ,
+            "results" :  404
+         } ,
+         {
+           "id" :  "9233916" ,
+            "name" :  "Evoo" ,
+            "results" :  136
+         } ,
+         {
+           "id" :  "206" ,
+            "name" :  "Samsung" ,
+            "results" :  136
+         } ,
+         {
+           "id" :  "351868" ,
+            "name" :  "Sony VAIO" ,
+            "results" :  70
+         } ,
+         {
+           "id" :  "4751336" ,
+            "name" :  "iView" ,
+            "results" :  45
+         } ,
+         {
+           "id" :  "8784" ,
+            "name" :  "Huawei" ,
+            "results" :  44
+         } ,
+         {
+           "id" :  "4843" ,
+            "name" :  "Fujitsu" ,
+            "results" :  44
+         } ,
+         {
+           "id" :  "11476" ,
+            "name" :  "Compaq" ,
+            "results" :  36
+         } ,
+         {
+           "id" :  "1228709" ,
+            "name" :  "Chuwi" ,
+            "results" :  35
+         } ,
+         {
+           "id" :  "2907125" ,
+            "name" :  "Yepo" ,
+            "results" :  34
+         } ,
+         {
+           "id" :  "1089" ,
+            "name" :  "Hyundai" ,
+            "results" :  29
+         } ,
+         {
+           "id" :  "17587" ,
+            "name" :  "Razer" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "6504514" ,
+            "name" :  "XPG" ,
+            "results" :  25
+         } ,
+         {
+           "id" :  "52037" ,
+            "name" :  "Alienware" ,
+            "results" :  23
+         } ,
+         {
+           "id" :  "15770" ,
+            "name" :  "Microsoft" ,
+            "results" :  20
+         } ,
+         {
+           "id" :  "6020328" ,
+            "name" :  "VAIO" ,
+            "results" :  19
+         } ,
+         {
+           "id" :  "215" ,
+            "name" :  "LG" ,
+            "results" :  17
+         } ,
+         {
+           "id" :  "20295" ,
+            "name" :  "Olidata" ,
+            "results" :  17
+         } ,
+         {
+           "id" :  "1237017" ,
+            "name" :  "Onn" ,
+            "results" :  12
+         } ,
+         {
+           "id" :  "18623" ,
+            "name" :  "Gigabyte" ,
+            "results" :  11
+         } ,
+         {
+           "id" :  "21980" ,
+            "name" :  "RCA" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "7743745" ,
+            "name" :  "Panavox" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "10331273" ,
+            "name" :  "Generic" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "8" ,
+            "name" :  "Panasonic" ,
+            "results" :  8
+         } ,
+         {
+           "id" :  "995" ,
+            "name" :  "Sony" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "52701" ,
+            "name" :  "Google" ,
+            "results" :  6
+         } ,
+         {
+           "id" :  "2418554" ,
+            "name" :  "Azpen" ,
+            "results" :  6
+         } ,
+         {
+           "id" :  "265514" ,
+            "name" :  "Kensington" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "2864" ,
+            "name" :  "IBM" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "20170" ,
+            "name" :  "ViewSonic" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "11160762" ,
+            "name" :  "Bitspower" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "1069379" ,
+            "name" :  "Evans" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "9878" ,
+            "name" :  "Humminbird" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7855833" ,
+            "name" :  "Intel" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7696" ,
+            "name" :  "3M" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "5378294" ,
+            "name" :  "Timbuk2" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "5188235" ,
+            "name" :  "Hosa" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "4712019" ,
+            "name" :  "Gibraltar" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "3417137" ,
+            "name" :  "Live" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "31163" ,
+            "name" :  "Multilaser" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "2786985" ,
+            "name" :  "Sabian" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "11207964" ,
+            "name" :  "Beadalon" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "9936198" ,
+            "name" :  "Odyson" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "989164" ,
+            "name" :  "Ultra" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "9788" ,
+            "name" :  "Raymarine" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "95138" ,
+            "name" :  "Neewer" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "8896510" ,
+            "name" :  "BC" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "8769434" ,
+            "name" :  "Vit" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "79165" ,
+            "name" :  "Netgear" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "763275" ,
+            "name" :  "Edge" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "6909797" ,
+            "name" :  "KM" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "6306" ,
+            "name" :  "HTC" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "6148015" ,
+            "name" :  "Case Crown" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5983665" ,
+            "name" :  "Compulocks" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "59387" ,
+            "name" :  "Xiaomi" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5730465" ,
+            "name" :  "Dechanic" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5679942" ,
+            "name" :  "Nanuk" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5458" ,
+            "name" :  "Furuno" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "52527" ,
+            "name" :  "Macally" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "50860" ,
+            "name" :  "Samyang" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "50458" ,
+            "name" :  "Havit" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4990238" ,
+            "name" :  "Brinch" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "49849" ,
+            "name" :  "Teclast" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "49462" ,
+            "name" :  "Getac" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4876891" ,
+            "name" :  "Zipit" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4822134" ,
+            "name" :  "Mosiso" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4744572" ,
+            "name" :  "Livescribe" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "456354" ,
+            "name" :  "Fortinet" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4491883" ,
+            "name" :  "Omen" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4401377" ,
+            "name" :  "Planet Waves" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4323" ,
+            "name" :  "Lexmark" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "428791" ,
+            "name" :  "MAC" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "416189" ,
+            "name" :  "Blackview" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "4057113" ,
+            "name" :  "Centon" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "38117" ,
+            "name" :  "Ubiquiti Networks" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3745111" ,
+            "name" :  "Cocoon" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "351880" ,
+            "name" :  "Packard Bell" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "351874" ,
+            "name" :  "Hasse" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "345559" ,
+            "name" :  "Avell" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3323648" ,
+            "name" :  "Kingwin" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3305318" ,
+            "name" :  "Iogear" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3201989" ,
+            "name" :  "Sauder" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2951770" ,
+            "name" :  "Ape Case" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2908708" ,
+            "name" :  "Only" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2847312" ,
+            "name" :  "Leviton" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2786839" ,
+            "name" :  "Ludwig" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2768428" ,
+            "name" :  "Éminence" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2536229" ,
+            "name" :  "Sea to Summit" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2532106" ,
+            "name" :  "Panduit" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2488983" ,
+            "name" :  "School Smart" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2438919" ,
+            "name" :  "Alldocube" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2430194" ,
+            "name" :  "Bioworld" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2369181" ,
+            "name" :  "Pioneer DJ" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2320148" ,
+            "name" :  "Remo" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "17755" ,
+            "name" :  "PNY" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "17603" ,
+            "name" :  "Eurocase" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "16602" ,
+            "name" :  "Soundstream" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "16312" ,
+            "name" :  "Transcend" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1249437" ,
+            "name" :  "iLive" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1158795" ,
+            "name" :  "GE" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11510400" ,
+            "name" :  "iStarUSA" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1141902" ,
+            "name" :  "Lanix" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11388772" ,
+            "name" :  "Itoya" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11257953" ,
+            "name" :  "Avita" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11234537" ,
+            "name" :  "AUO" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11232676" ,
+            "name" :  "MightyTie" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11005" ,
+            "name" :  "Olivetti" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1064281" ,
+            "name" :  "Banpresto" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "10252" ,
+            "name" :  "Pyle" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "CORES_NUMBER" ,
+        "name" :  "Number of cores" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "(*-4)" ,
+            "name" :  "4 cores or less" ,
+            "results" :  1597
+         } ,
+         {
+           "id" :  "[4-6)" ,
+            "name" :  "4-5 cores" ,
+            "results" :  1370
+         } ,
+         {
+           "id" :  "[6-*)" ,
+            "name" :  "6 cores or more" ,
+            "results" :  709
+         }
+       ]
+     } ,
+     {
+       "id" :  "DISPLAY_SIZE" ,
+        "name" :  "Screen size" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "(*-14)" ,
+            "name" :  "Less than 14 " ,
+            "results" :  2101
+         } ,
+         {
+           "id" :  "[14-15)" ,
+            "name" :  "14 " ,
+            "results" :  1942
+         } ,
+         {
+           "id" :  "[15-*)" ,
+            "name" :  "15  or more" ,
+            "results" :  4439
+         }
+       ]
+     } ,
+     {
+       "id" :  "IS_2_IN_1" ,
+        "name" :  "Other features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "It's 2 in 1" ,
+            "results" :  3649
+         }
+       ]
+     } ,
+     {
+       "id" :  "IS_GAMER" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "Is gamer" ,
+            "results" :  1856
+         }
+       ]
+     } ,
+     {
+       "id" :  "IS_ULTRABOOK" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "It's ultrabook" ,
+            "results" :  715
+         }
+       ]
+     } ,
+     {
+       "id" :  "ITEM_CONDITION" ,
+        "name" :  "Condition" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "2230284" ,
+            "name" :  "New" ,
+            "results" :  8712
+         } ,
+         {
+           "id" :  "2230581" ,
+            "name" :  "Used" ,
+            "results" :  2252
+         } ,
+         {
+           "id" :  "2230582" ,
+            "name" :  "Refurbished" ,
+            "results" :  1030
+         }
+       ]
+     } ,
+     {
+       "id" :  "LINE" ,
+        "name" :  "Line" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "95588" ,
+            "name" :  "MacBook Pro" ,
+            "results" :  1507
+         } ,
+         {
+           "id" :  "27211" ,
+            "name" :  "IdeaPad" ,
+            "results" :  945
+         } ,
+         {
+           "id" :  "95565" ,
+            "name" :  "MacBook Air" ,
+            "results" :  638
+         } ,
+         {
+           "id" :  "99483" ,
+            "name" :  "VivoBook" ,
+            "results" :  430
+         } ,
+         {
+           "id" :  "44543" ,
+            "name" :  "Aspire" ,
+            "results" :  296
+         } ,
+         {
+           "id" :  "49882" ,
+            "name" :  "Pavilion" ,
+            "results" :  256
+         } ,
+         {
+           "id" :  "7913034" ,
+            "name" :  "Thin" ,
+            "results" :  209
+         } ,
+         {
+           "id" :  "452622" ,
+            "name" :  "ZenBook" ,
+            "results" :  193
+         } ,
+         {
+           "id" :  "50124" ,
+            "name" :  "ThinkPad" ,
+            "results" :  192
+         } ,
+         {
+           "id" :  "50062" ,
+            "name" :  "Latitude" ,
+            "results" :  180
+         } ,
+         {
+           "id" :  "52041" ,
+            "name" :  "Inspiron" ,
+            "results" :  179
+         } ,
+         {
+           "id" :  "100226" ,
+            "name" :  "Chromebook" ,
+            "results" :  176
+         } ,
+         {
+           "id" :  "1182986" ,
+            "name" :  "Legion" ,
+            "results" :  126
+         } ,
+         {
+           "id" :  "7873274" ,
+            "name" :  "Aspire 3" ,
+            "results" :  124
+         } ,
+         {
+           "id" :  "2257346" ,
+            "name" :  "Nitro 5" ,
+            "results" :  118
+         } ,
+         {
+           "id" :  "49921" ,
+            "name" :  "Satellite" ,
+            "results" :  115
+         } ,
+         {
+           "id" :  "10311937" ,
+            "name" :  "Ultra Slim" ,
+            "results" :  110
+         } ,
+         {
+           "id" :  "7873239" ,
+            "name" :  "Aspire 5" ,
+            "results" :  105
+         } ,
+         {
+           "id" :  "44565" ,
+            "name" :  "ProBook" ,
+            "results" :  97
+         } ,
+         {
+           "id" :  "95669" ,
+            "name" :  "Stream" ,
+            "results" :  90
+         } ,
+         {
+           "id" :  "263919" ,
+            "name" :  "ROG" ,
+            "results" :  90
+         } ,
+         {
+           "id" :  "448002" ,
+            "name" :  "ROG Strix" ,
+            "results" :  87
+         } ,
+         {
+           "id" :  "223948" ,
+            "name" :  "Win" ,
+            "results" :  83
+         } ,
+         {
+           "id" :  "18713" ,
+            "name" :  "G3" ,
+            "results" :  76
+         } ,
+         {
+           "id" :  "884" ,
+            "name" :  "Premium" ,
+            "results" :  59
+         } ,
+         {
+           "id" :  "7628397" ,
+            "name" :  "V-Series" ,
+            "results" :  57
+         } ,
+         {
+           "id" :  "2847623" ,
+            "name" :  "TUF" ,
+            "results" :  52
+         } ,
+         {
+           "id" :  "2571825" ,
+            "name" : "  UltraThin " ,
+            "results" :  50
+         } ,
+         {
+           "id" :  "2203682" ,
+            "name" :  "G7" ,
+            "results" :  47
+         } ,
+         {
+           "id" :  "10551752" ,
+            "name" :  "Tecra" ,
+            "results" :  42
+         } ,
+         {
+           "id" :  "7955885" ,
+            "name" :  "LifeBook" ,
+            "results" :  41
+         } ,
+         {
+           "id" :  "50088" ,
+            "name" :  "EliteBook" ,
+            "results" :  37
+         } ,
+         {
+           "id" :  "7967821" ,
+            "name" :  "Spin 3" ,
+            "results" :  35
+         } ,
+         {
+           "id" :  "1141914" ,
+            "name" :  "MateBook" ,
+            "results" :  34
+         } ,
+         {
+           "id" :  "6680679" ,
+            "name" :  "Omen" ,
+            "results" :  32
+         } ,
+         {
+           "id" :  "9045831" ,
+            "name" :  "Pavilion Gaming" ,
+            "results" :  30
+         } ,
+         {
+           "id" :  "38974" ,
+            "name" :  "Envy" ,
+            "results" :  30
+         } ,
+         {
+           "id" :  "2551526" ,
+            "name" :  "Modern" ,
+            "results" :  30
+         } ,
+         {
+           "id" :  "8750678" ,
+            "name" :  "ThinkBook" ,
+            "results" :  29
+         } ,
+         {
+           "id" :  "478628" ,
+            "name" :  "Yoga" ,
+            "results" :  28
+         } ,
+         {
+           "id" :  "8729575" ,
+            "name" :  "Swift 3" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "4940210" ,
+            "name" :  "GL Series" ,
+            "results" :  26
+         } ,
+         {
+           "id" :  "7931978" ,
+            "name" :  "Aspire 1" ,
+            "results" :  24
+         } ,
+         {
+           "id" :  "3429730" ,
+            "name" :  "ROG Zephyrus" ,
+            "results" :  23
+         } ,
+         {
+           "id" :  "1069977" ,
+            "name" :  "Bravo" ,
+            "results" :  23
+         } ,
+         {
+           "id" :  "6231009" ,
+            "name" :  "TUF Gaming" ,
+            "results" :  22
+         } ,
+         {
+           "id" :  "109496" ,
+            "name" :  "Blade" ,
+            "results" :  22
+         } ,
+         {
+           "id" :  "7875416" ,
+            "name" :  "Legion Y" ,
+            "results" :  20
+         } ,
+         {
+           "id" :  "10394018" ,
+            "name" :  "ROG Zephyrus G14" ,
+            "results" :  20
+         } ,
+         {
+           "id" :  "8897803" ,
+            "name" :  "Predator Helios" ,
+            "results" :  19
+         } ,
+         {
+           "id" :  "9233946" ,
+            "name" :  "Apire 3" ,
+            "results" :  17
+         } ,
+         {
+           "id" :  "51874" ,
+            "name" :  "XPS" ,
+            "results" :  16
+         } ,
+         {
+           "id" :  "20681" ,
+            "name" :  "Presario" ,
+            "results" :  15
+         } ,
+         {
+           "id" :  "7937777" ,
+            "name" :  "Aspire E" ,
+            "results" :  14
+         } ,
+         {
+           "id" :  "7880609" ,
+            "name" :  "Predator Helios 300" ,
+            "results" :  14
+         } ,
+         {
+           "id" :  "7941736" ,
+            "name" :  "ROG Strix G" ,
+            "results" :  12
+         } ,
+         {
+           "id" :  "2508866" ,
+            "name" :  "PowerBook" ,
+            "results" :  12
+         } ,
+         {
+           "id" :  "12765" ,
+            "name" :  "Prestige" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "124650" ,
+            "name" :  "Unique" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "7964935" ,
+            "name" :  "Spectre x360" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "7939495" ,
+            "name" :  "Envy x360" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "7884773" ,
+            "name" :  "Pavilion x360" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "2508865" ,
+            "name" :  "iBook" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "2398503" ,
+            "name" :  "ATIV Book" ,
+            "results" :  9
+         } ,
+         {
+           "id" :  "11557823" ,
+            "name" :  "Raider" ,
+            "results" :  8
+         } ,
+         {
+           "id" :  "10297716" ,
+            "name" :  "G5 SE" ,
+            "results" :  8
+         } ,
+         {
+           "id" :  "9076110" ,
+            "name" :  "Yoga Slim" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "51802" ,
+            "name" :  "Vostro" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "2801448" ,
+            "name" :  "G5" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "7883186" ,
+            "name" :  "UltraBook" ,
+            "results" :  6
+         } ,
+         {
+           "id" :  "52270" ,
+            "name" :  "Precision" ,
+            "results" :  6
+         } ,
+         {
+           "id" :  "8677925" ,
+            "name" :  "Aspire Nitro 5" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "8201163" ,
+            "name" :  "GS Series" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "7954309" ,
+            "name" :  "Swift 5" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "7939066" ,
+            "name" :  "Aspire 7" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "49516" ,
+            "name" :  "Toughbook" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "2611020" ,
+            "name" :  "GE Series" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "11272940" ,
+            "name" :  "ZenBook Pro Duo" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "10205989" ,
+            "name" :  "Satellite Pro" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "10205632" ,
+            "name" :  "ROG Zephyrus Duo" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "10092013" ,
+            "name" :  "Chromebook 4" ,
+            "results" :  5
+         } ,
+         {
+           "id" :  "9947639" ,
+            "name" :  "Book" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "9851423" ,
+            "name" :  "Predator Triton 300" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "7942257" ,
+            "name" :  "GF Thin Series" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "3022694" ,
+            "name" :  "Aorus" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "2813654" ,
+            "name" :  "Stealth Pro" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "2557383" ,
+            "name" :  "XPS 15" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "9707439" ,
+            "name" :  "FE14" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "8698890" ,
+            "name" :  "Transformer Book" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "7970690" ,
+            "name" :  "GP Leopard" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "2103775" ,
+            "name" :  "Chromebook Flip" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "9161" ,
+            "name" :  "Elite" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "9109827" ,
+            "name" :  "ExpertBook" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8972491" ,
+            "name" :  "GS Stealth Series" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8934412" ,
+            "name" :  "EliteBook x360" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8777098" ,
+            "name" :  "Galaxy Book" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8172878" ,
+            "name" :  "Blade Stealth" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8150977" ,
+            "name" :  "ROG Zephyrus M" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7965694" ,
+            "name" :  "VivoBook Max" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7952481" ,
+            "name" :  "ThinkPad X" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7939049" ,
+            "name" :  "ROG Zephyrus S" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "44295" ,
+            "name" :  "FX" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "11384147" ,
+            "name" :  "Chromebook R11" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "107694" ,
+            "name" :  "Aero" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "102037" ,
+            "name" :  "ZBook" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "9771012" ,
+            "name" :  "Predator Triton 900" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "8949410" ,
+            "name" :  "ConceptD" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "8750397" ,
+            "name" :  "TravelMate P2" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "7984175" ,
+            "name" :  "Swift 1" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "7965956" ,
+            "name" :  "GT Titan Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "7965701" ,
+            "name" :  "Aspire VX 15" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "7883793" ,
+            "name" :  "Flex 6" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5556968" ,
+            "name" :  "VivoBook Flip 14" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5268854" ,
+            "name" :  "GF Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "44534" ,
+            "name" :  "FIT" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "431556" ,
+            "name" :  "Spin" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "34296" ,
+            "name" :  "Style" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2320174" ,
+            "name" :  "Aspire V Nitro" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2218963" ,
+            "name" :  "Switch" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2151877" ,
+            "name" :  "ZenBook Pro" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "115713" ,
+            "name" :  "Duo" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11384146" ,
+            "name" :  "Chromebook R13" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1111865" ,
+            "name" :  "VivoBook Flip" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "10780124" ,
+            "name" :  "ROG Strix Scar" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "10382273" ,
+            "name" :  "ROG Zephyrus G" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "MAIN_COLOR" ,
+        "name" :  "Main Color" ,
+        "type" :  "list" ,
+        "values" : [
+         {
+           "id" :  "2450295" ,
+            "name" :  "Black" ,
+            "results" :  2441
+         } ,
+         {
+           "id" :  "2450294" ,
+            "name" :  "Gray" ,
+            "results" :  2283
+         } ,
+         {
+           "id" :  "2450293" ,
+            "name" :  "Blue" ,
+            "results" :  404
+         } ,
+         {
+           "id" :  "2450303" ,
+            "name" :  "Silver" ,
+            "results" :  365
+         } ,
+         {
+           "id" :  "2450307" ,
+            "name" :  "Red" ,
+            "results" :  113
+         } ,
+         {
+           "id" :  "2450314" ,
+            "name" :  "Green" ,
+            "results" :  110
+         } ,
+         {
+           "id" :  "2450308" ,
+            "name" :  "White" ,
+            "results" :  83
+         } ,
+         {
+           "id" :  "2450311" ,
+            "name" :  "Violet" ,
+            "results" :  80
+         } ,
+         {
+           "id" :  "2450289" ,
+            "name" :  "Gold" ,
+            "results" :  66
+         } ,
+         {
+           "id" :  "2450312" ,
+            "name" :  "Rose" ,
+            "results" :  44
+         } ,
+         {
+           "id" :  "2450291" ,
+            "name" :  "Brown" ,
+            "results" :  23
+         } ,
+         {
+           "id" :  "2450278" ,
+            "name" :  "Celeste" ,
+            "results" :  18
+         } ,
+         {
+           "id" :  "2450325" ,
+            "name" :  "Navy" ,
+            "results" :  14
+         } ,
+         {
+           "id" :  "2450306" ,
+            "name" :  "Dark Blue" ,
+            "results" :  8
+         } ,
+         {
+           "id" :  "2450322" ,
+            "name" :  "Embroidery" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "2450319" ,
+            "name" :  "Light Green" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "2450327" ,
+            "name" :  "Orange" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2450326" ,
+            "name" :  "Fuchsia" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2450324" ,
+            "name" :  "Dark Green" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2450316" ,
+            "name" :  "Lavender" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2450299" ,
+            "name" :  "Dark Grey" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2450281" ,
+            "name" :  "Beige" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "OS_NAME" ,
+        "name" :  "OS Name" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "4830885" ,
+            "name" :  "Windows" ,
+            "results" :  7496
+         } ,
+         {
+           "id" :  "7232871" ,
+            "name" :  "macOS" ,
+            "results" :  2078
+         } ,
+         {
+           "id" :  "8770659" ,
+            "name" :  "Google Chrome" ,
+            "results" :  221
+         } ,
+         {
+           "id" :  "5902548" ,
+            "name" :  "Linux" ,
+            "results" :  90
+         } ,
+         {
+           "id" :  "6283188" ,
+            "name" :  "FreeDOS" ,
+            "results" :  68
+         } ,
+         {
+           "id" :  "4439562" ,
+            "name" :  "Chrome OS" ,
+            "results" :  15
+         } ,
+         {
+           "id" :  "4743192" ,
+            "name" :  "Android" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "6323527" ,
+            "name" :  "Mac" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "PROCESSOR_BRAND" ,
+        "name" :  "Processor Brand" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "7855833" ,
+            "name" :  "Intel" ,
+            "results" :  7666
+         } ,
+         {
+           "id" :  "18034" ,
+            "name" :  "AMD" ,
+            "results" :  1743
+         } ,
+         {
+           "id" :  "9344" ,
+            "name" :  "Apple" ,
+            "results" :  523
+         } ,
+         {
+           "id" :  "1064968" ,
+            "name" :  "MediaTek" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "3383461" ,
+            "name" :  "Qualcomm" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "18036" ,
+            "name" :  "ADM" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "1158795" ,
+            "name" :  "GE" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "PROCESSOR_LINE" ,
+        "name" :  "Processor Line" ,
+        "type" :  "STRING" ,
+        "values" : [
+         {
+           "id" :  "7769178" ,
+            "name" :  "Core i5" ,
+            "results" :  1802
+         } ,
+         {
+           "id" :  "7769180" ,
+            "name" :  "Core i7" ,
+            "results" :  1220
+         } ,
+         {
+           "id" :  "7769179" ,
+            "name" :  "Core i3" ,
+            "results" :  941
+         } ,
+         {
+           "id" :  "44273" ,
+            "name" :  "Celeron" ,
+            "results" :  646
+         } ,
+         {
+           "id" :  "42263" ,
+            "name" :  "Core 2 Duo" ,
+            "results" :  186
+         } ,
+         {
+           "id" :  "1260236" ,
+            "name" :  "Ryzen 3" ,
+            "results" :  136
+         } ,
+         {
+           "id" :  "2244215" ,
+            "name" :  "Ryzen 5" ,
+            "results" :  130
+         } ,
+         {
+           "id" :  "968657" ,
+            "name" :  "Ryzen 7" ,
+            "results" :  95
+         } ,
+         {
+           "id" :  "51103" ,
+            "name" :  "Athlon" ,
+            "results" :  71
+         } ,
+         {
+           "id" :  "5538083" ,
+            "name" :  "Intel" ,
+            "results" :  40
+         } ,
+         {
+           "id" :  "7650894" ,
+            "name" :  "Ryzen 9" ,
+            "results" :  36
+         } ,
+         {
+           "id" :  "8897208" ,
+            "name" :  "Pentium Silver" ,
+            "results" :  35
+         } ,
+         {
+           "id" :  "109512" ,
+            "name" :  "Atom" ,
+            "results" :  35
+         } ,
+         {
+           "id" :  "7769247" ,
+            "name" :  "Core i9" ,
+            "results" :  34
+         } ,
+         {
+           "id" :  "44265" ,
+            "name" :  "Core Duo" ,
+            "results" :  34
+         } ,
+         {
+           "id" :  "18064" ,
+            "name" :  "Pentium" ,
+            "results" :  32
+         } ,
+         {
+           "id" :  "566691" ,
+            "name" :  "Turion" ,
+            "results" :  27
+         } ,
+         {
+           "id" :  "18187" ,
+            "name" :  "Pentium 4" ,
+            "results" :  16
+         } ,
+         {
+           "id" :  "8665168" ,
+            "name" :  "Athlon Silver" ,
+            "results" :  13
+         } ,
+         {
+           "id" :  "507010" ,
+            "name" :  "Ryzen" ,
+            "results" :  13
+         } ,
+         {
+           "id" :  "3934760" ,
+            "name" :  "A6-Series" ,
+            "results" :  13
+         } ,
+         {
+           "id" :  "2968336" ,
+            "name" :  "Pentium Gold" ,
+            "results" :  11
+         } ,
+         {
+           "id" :  "2417364" ,
+            "name" :  "A4-Series" ,
+            "results" :  11
+         } ,
+         {
+           "id" :  "4730157" ,
+            "name" :  "E1" ,
+            "results" :  10
+         } ,
+         {
+           "id" :  "9064510" ,
+            "name" :  "Athlon Gold" ,
+            "results" :  8
+         } ,
+         {
+           "id" :  "903439" ,
+            "name" :  "Pentium M" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "11117609" ,
+            "name" :  "3020e" ,
+            "results" :  7
+         } ,
+         {
+           "id" :  "19567" ,
+            "name" :  "Core" ,
+            "results" :  6
+         } ,
+         {
+           "id" :  "8631936" ,
+            "name" :  "0%" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "7855837" ,
+            "name" :  "Core i4" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "519" ,
+            "name" :  "M" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "42629" ,
+            "name" :  "Xeon" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "18253" ,
+            "name" :  "Sempron" ,
+            "results" :  4
+         } ,
+         {
+           "id" :  "18482" ,
+            "name" :  "Pentium III" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "17372" ,
+            "name" :  "Radeon" ,
+            "results" :  3
+         } ,
+         {
+           "id" :  "8691302" ,
+            "name" :  "6" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "8201964" ,
+            "name" :  "Core M3" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7883193" ,
+            "name" :  "E1-Series" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7878897" ,
+            "name" :  "Core M" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7855839" ,
+            "name" :  "Core i6" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "3934958" ,
+            "name" :  "A12-Series" ,
+            "results" :  2
+         } ,
+         {
+           "id" :  "7876771" ,
+            "name" :  "A9-Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "5391" ,
+            "name" :  "1" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "44295" ,
+            "name" :  "FX" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "44281" ,
+            "name" :  "A" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3934960" ,
+            "name" :  "A10-Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "3167017" ,
+            "name" :  "Dual" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2846260" ,
+            "name" :  "E2-Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2477940" ,
+            "name" :  "White" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "2345618" ,
+            "name" :  "A8-Series" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11199954" ,
+            "name" :  "M5" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "11166383" ,
+            "name" :  "AMD Ryzen™ 3" ,
+            "results" :  1
+         } ,
+         {
+           "id" :  "10873728" ,
+            "name" :  "Mediatek" ,
+            "results" :  1
+         }
+       ]
+     } ,
+     {
+       "id" :  "RAM_MEMORY" ,
+        "name" :  "RAM Memory" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "(*-6GB)" ,
+            "name" :  "Less than 6GB" ,
+            "results" :  2884
+         } ,
+         {
+           "id" :  "[6GB-12GB)" ,
+            "name" :  "6 to 11GB" ,
+            "results" :  3820
+         } ,
+         {
+           "id" :  "[12GB-20GB)" ,
+            "name" :  "12-19GB" ,
+            "results" :  1723
+         } ,
+         {
+           "id" :  "[20GB-*)" ,
+            "name" :  "20 GB or more" ,
+            "results" :  353
+         }
+       ]
+     } ,
+     {
+       "id" :  "SSD_DATA_STORAGE_CAPACITY" ,
+        "name" :  "SSD capacity" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "(*-64GB)" ,
+            "name" :  "Less than 64GB" ,
+            "results" :  338
+         } ,
+         {
+           "id" :  "[64GB-240GB)" ,
+            "name" :  "64 to 239GB" ,
+            "results" :  1967
+         } ,
+         {
+           "id" :  "[240GB-500GB)" ,
+            "name" :  "240 to 499GB" ,
+            "results" :  2540
+         } ,
+         {
+           "id" :  "[500GB-512GB)" ,
+            "name" :  "500 to 511GB" ,
+            "results" :  181
+         } ,
+         {
+           "id" :  "[512GB-*)" ,
+            "name" :  "512 GB or more" ,
+            "results" :  645
+         }
+       ]
+     } ,
+     {
+       "id" :  "USB_TOTAL_PORTS_NUMBER" ,
+        "name" :  "Total number of USB ports" ,
+        "type" :  "range" ,
+        "values" : [
+         {
+           "id" :  "[1-1]" ,
+            "name" :  "1 USB port" ,
+            "results" :  519
+         } ,
+         {
+           "id" :  "[2-2]" ,
+            "name" :  "2 usb ports" ,
+            "results" :  490
+         } ,
+         {
+           "id" :  "[3-3]" ,
+            "name" :  "3 usb ports" ,
+            "results" :  2571
+         } ,
+         {
+           "id" :  "[4-*)" ,
+            "name" :  "4 usb ports or more" ,
+            "results" :  1606
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_BLUETOOTH" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With Bluetooth" ,
+            "results" :  7289
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_HDMI" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With HDMI" ,
+            "results" :  6420
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_HEADPHONES_OUTPUT" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With headphone output" ,
+            "results" :  4920
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_MEMORY_CARD_READER" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With memory card reader" ,
+            "results" :  3955
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_MICROPHONE" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With microphone" ,
+            "results" :  6529
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_TOUCH_SCREEN" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "Touch Screen" ,
+            "results" :  1042
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_USB" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With USB" ,
+            "results" :  7583
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_WEBCAM" ,
+        "name" :  "Other Features" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With webcam" ,
+            "results" :  7149
+         }
+       ]
+     } ,
+     {
+       "id" :  "WITH_WI_FI" ,
+        "name" :  "Wi-Fi" ,
+        "type" :  "boolean" ,
+        "values" : [
+         {
+           "id" :  "242085" ,
+            "name" :  "With Wi-Fi" ,
+            "results" :  7361
+         }
+       ]
+     }
+   ]
+  }
