@@ -46,6 +46,7 @@ dependencies:
   pretty_dio_logger: ^1.2.0-beta-1
   intl: ^0.17.0
   rxdart: ^0.27.3
+  dio_flutter_transformer2: ^4.0.1
 
 dev_dependencies:
   flutter_test:
